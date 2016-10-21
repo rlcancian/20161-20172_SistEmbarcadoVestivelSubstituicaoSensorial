@@ -1,0 +1,4879 @@
++--------------------------------------------------------------------------------+
+; Legal Partition Candidates                                                     ;
++--------------------------------------------------------------------------------+
+Hierarchy         : \motors_ixj:7:i_motors_ixj:7:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:7:i_motors_ixj:7:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:7:i_motors_ixj:7:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:7:i_motors_ixj:7:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:7:i_motors_ixj:7:j_motors_ixj
+Input             : 56
+Constant Input    : 8
+Unused Input      : 0
+Floating Input    : 8
+Output            : 9
+Constant Output   : 8
+Unused Output     : 8
+Floating Output   : 8
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:7:i_motors_ixj:6:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:7:i_motors_ixj:6:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:7:i_motors_ixj:6:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:7:i_motors_ixj:6:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:7:i_motors_ixj:6:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:7:i_motors_ixj:5:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:7:i_motors_ixj:5:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:7:i_motors_ixj:5:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:7:i_motors_ixj:5:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:7:i_motors_ixj:5:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:7:i_motors_ixj:4:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:7:i_motors_ixj:4:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:7:i_motors_ixj:4:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:7:i_motors_ixj:4:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:7:i_motors_ixj:4:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:7:i_motors_ixj:3:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:7:i_motors_ixj:3:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:7:i_motors_ixj:3:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:7:i_motors_ixj:3:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:7:i_motors_ixj:3:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:7:i_motors_ixj:2:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:7:i_motors_ixj:2:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:7:i_motors_ixj:2:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:7:i_motors_ixj:2:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:7:i_motors_ixj:2:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:7:i_motors_ixj:1:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:7:i_motors_ixj:1:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:7:i_motors_ixj:1:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:7:i_motors_ixj:1:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:7:i_motors_ixj:1:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:6:i_motors_ixj:7:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:6:i_motors_ixj:7:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:6:i_motors_ixj:7:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:6:i_motors_ixj:7:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:6:i_motors_ixj:7:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:6:i_motors_ixj:6:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:6:i_motors_ixj:6:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:6:i_motors_ixj:6:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:6:i_motors_ixj:6:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:6:i_motors_ixj:6:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:6:i_motors_ixj:5:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:6:i_motors_ixj:5:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:6:i_motors_ixj:5:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:6:i_motors_ixj:5:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:6:i_motors_ixj:5:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:6:i_motors_ixj:4:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:6:i_motors_ixj:4:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:6:i_motors_ixj:4:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:6:i_motors_ixj:4:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:6:i_motors_ixj:4:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:6:i_motors_ixj:3:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:6:i_motors_ixj:3:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:6:i_motors_ixj:3:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:6:i_motors_ixj:3:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:6:i_motors_ixj:3:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:6:i_motors_ixj:2:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:6:i_motors_ixj:2:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:6:i_motors_ixj:2:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:6:i_motors_ixj:2:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:6:i_motors_ixj:2:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:6:i_motors_ixj:1:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:6:i_motors_ixj:1:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:6:i_motors_ixj:1:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:6:i_motors_ixj:1:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:6:i_motors_ixj:1:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:5:i_motors_ixj:7:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:5:i_motors_ixj:7:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:5:i_motors_ixj:7:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:5:i_motors_ixj:7:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:5:i_motors_ixj:7:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:5:i_motors_ixj:6:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:5:i_motors_ixj:6:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:5:i_motors_ixj:6:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:5:i_motors_ixj:6:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:5:i_motors_ixj:6:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:5:i_motors_ixj:5:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:5:i_motors_ixj:5:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:5:i_motors_ixj:5:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:5:i_motors_ixj:5:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:5:i_motors_ixj:5:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:5:i_motors_ixj:4:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:5:i_motors_ixj:4:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:5:i_motors_ixj:4:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:5:i_motors_ixj:4:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:5:i_motors_ixj:4:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:5:i_motors_ixj:3:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:5:i_motors_ixj:3:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:5:i_motors_ixj:3:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:5:i_motors_ixj:3:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:5:i_motors_ixj:3:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:5:i_motors_ixj:2:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:5:i_motors_ixj:2:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:5:i_motors_ixj:2:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:5:i_motors_ixj:2:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:5:i_motors_ixj:2:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:5:i_motors_ixj:1:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:5:i_motors_ixj:1:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:5:i_motors_ixj:1:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:5:i_motors_ixj:1:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:5:i_motors_ixj:1:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:4:i_motors_ixj:7:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:4:i_motors_ixj:7:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:4:i_motors_ixj:7:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:4:i_motors_ixj:7:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:4:i_motors_ixj:7:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:4:i_motors_ixj:6:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:4:i_motors_ixj:6:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:4:i_motors_ixj:6:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:4:i_motors_ixj:6:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:4:i_motors_ixj:6:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:4:i_motors_ixj:5:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:4:i_motors_ixj:5:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:4:i_motors_ixj:5:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:4:i_motors_ixj:5:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:4:i_motors_ixj:5:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:4:i_motors_ixj:4:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:4:i_motors_ixj:4:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:4:i_motors_ixj:4:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:4:i_motors_ixj:4:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:4:i_motors_ixj:4:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:4:i_motors_ixj:3:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:4:i_motors_ixj:3:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:4:i_motors_ixj:3:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:4:i_motors_ixj:3:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:4:i_motors_ixj:3:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:4:i_motors_ixj:2:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:4:i_motors_ixj:2:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:4:i_motors_ixj:2:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:4:i_motors_ixj:2:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:4:i_motors_ixj:2:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:4:i_motors_ixj:1:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:4:i_motors_ixj:1:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:4:i_motors_ixj:1:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:4:i_motors_ixj:1:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:4:i_motors_ixj:1:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:3:i_motors_ixj:7:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:3:i_motors_ixj:7:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:3:i_motors_ixj:7:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:3:i_motors_ixj:7:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:3:i_motors_ixj:7:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:3:i_motors_ixj:6:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:3:i_motors_ixj:6:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:3:i_motors_ixj:6:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:3:i_motors_ixj:6:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:3:i_motors_ixj:6:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:3:i_motors_ixj:5:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:3:i_motors_ixj:5:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:3:i_motors_ixj:5:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:3:i_motors_ixj:5:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:3:i_motors_ixj:5:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:3:i_motors_ixj:4:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:3:i_motors_ixj:4:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:3:i_motors_ixj:4:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:3:i_motors_ixj:4:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:3:i_motors_ixj:4:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:3:i_motors_ixj:3:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:3:i_motors_ixj:3:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:3:i_motors_ixj:3:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:3:i_motors_ixj:3:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:3:i_motors_ixj:3:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:3:i_motors_ixj:2:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:3:i_motors_ixj:2:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:3:i_motors_ixj:2:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:3:i_motors_ixj:2:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:3:i_motors_ixj:2:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:3:i_motors_ixj:1:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:3:i_motors_ixj:1:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:3:i_motors_ixj:1:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:3:i_motors_ixj:1:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:3:i_motors_ixj:1:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:2:i_motors_ixj:7:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:2:i_motors_ixj:7:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:2:i_motors_ixj:7:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:2:i_motors_ixj:7:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:2:i_motors_ixj:7:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:2:i_motors_ixj:6:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:2:i_motors_ixj:6:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:2:i_motors_ixj:6:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:2:i_motors_ixj:6:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:2:i_motors_ixj:6:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:2:i_motors_ixj:5:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:2:i_motors_ixj:5:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:2:i_motors_ixj:5:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:2:i_motors_ixj:5:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:2:i_motors_ixj:5:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:2:i_motors_ixj:4:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:2:i_motors_ixj:4:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:2:i_motors_ixj:4:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:2:i_motors_ixj:4:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:2:i_motors_ixj:4:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:2:i_motors_ixj:3:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:2:i_motors_ixj:3:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:2:i_motors_ixj:3:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:2:i_motors_ixj:3:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:2:i_motors_ixj:3:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:2:i_motors_ixj:2:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:2:i_motors_ixj:2:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:2:i_motors_ixj:2:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:2:i_motors_ixj:2:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:2:i_motors_ixj:2:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:2:i_motors_ixj:1:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:2:i_motors_ixj:1:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:2:i_motors_ixj:1:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:2:i_motors_ixj:1:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:2:i_motors_ixj:1:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:1:i_motors_ixj:7:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:1:i_motors_ixj:7:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:1:i_motors_ixj:7:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:1:i_motors_ixj:7:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:1:i_motors_ixj:7:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:1:i_motors_ixj:6:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:1:i_motors_ixj:6:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:1:i_motors_ixj:6:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:1:i_motors_ixj:6:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:1:i_motors_ixj:6:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:1:i_motors_ixj:5:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:1:i_motors_ixj:5:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:1:i_motors_ixj:5:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:1:i_motors_ixj:5:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:1:i_motors_ixj:5:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:1:i_motors_ixj:4:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:1:i_motors_ixj:4:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:1:i_motors_ixj:4:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:1:i_motors_ixj:4:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:1:i_motors_ixj:4:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:1:i_motors_ixj:3:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:1:i_motors_ixj:3:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:1:i_motors_ixj:3:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:1:i_motors_ixj:3:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:1:i_motors_ixj:3:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:1:i_motors_ixj:2:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:1:i_motors_ixj:2:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:1:i_motors_ixj:2:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:1:i_motors_ixj:2:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:1:i_motors_ixj:2:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:1:i_motors_ixj:1:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:1:i_motors_ixj:1:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:1:i_motors_ixj:1:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:1:i_motors_ixj:1:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ixj:1:i_motors_ixj:1:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ix0:7:n_motors_ix0|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ix0:7:n_motors_ix0|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ix0:7:n_motors_ix0|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ix0:7:n_motors_ix0|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ix0:7:n_motors_ix0
+Input             : 56
+Constant Input    : 8
+Unused Input      : 0
+Floating Input    : 8
+Output            : 9
+Constant Output   : 8
+Unused Output     : 8
+Floating Output   : 8
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ix0:6:n_motors_ix0|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ix0:6:n_motors_ix0|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ix0:6:n_motors_ix0|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ix0:6:n_motors_ix0|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ix0:6:n_motors_ix0
+Input             : 56
+Constant Input    : 8
+Unused Input      : 0
+Floating Input    : 8
+Output            : 9
+Constant Output   : 8
+Unused Output     : 8
+Floating Output   : 8
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ix0:5:n_motors_ix0|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ix0:5:n_motors_ix0|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ix0:5:n_motors_ix0|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ix0:5:n_motors_ix0|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ix0:5:n_motors_ix0
+Input             : 56
+Constant Input    : 8
+Unused Input      : 0
+Floating Input    : 8
+Output            : 9
+Constant Output   : 8
+Unused Output     : 8
+Floating Output   : 8
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ix0:4:n_motors_ix0|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ix0:4:n_motors_ix0|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ix0:4:n_motors_ix0|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ix0:4:n_motors_ix0|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ix0:4:n_motors_ix0
+Input             : 56
+Constant Input    : 8
+Unused Input      : 0
+Floating Input    : 8
+Output            : 9
+Constant Output   : 8
+Unused Output     : 8
+Floating Output   : 8
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ix0:3:n_motors_ix0|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ix0:3:n_motors_ix0|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ix0:3:n_motors_ix0|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ix0:3:n_motors_ix0|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ix0:3:n_motors_ix0
+Input             : 56
+Constant Input    : 8
+Unused Input      : 0
+Floating Input    : 8
+Output            : 9
+Constant Output   : 8
+Unused Output     : 8
+Floating Output   : 8
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ix0:2:n_motors_ix0|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ix0:2:n_motors_ix0|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ix0:2:n_motors_ix0|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ix0:2:n_motors_ix0|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ix0:2:n_motors_ix0
+Input             : 56
+Constant Input    : 8
+Unused Input      : 0
+Floating Input    : 8
+Output            : 9
+Constant Output   : 8
+Unused Output     : 8
+Floating Output   : 8
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ix0:1:n_motors_ix0|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ix0:1:n_motors_ix0|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ix0:1:n_motors_ix0|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ix0:1:n_motors_ix0|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_ix0:1:n_motors_ix0
+Input             : 56
+Constant Input    : 8
+Unused Input      : 0
+Floating Input    : 8
+Output            : 9
+Constant Output   : 8
+Unused Output     : 8
+Floating Output   : 8
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_0xi:7:n_motors_0xi|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_0xi:7:n_motors_0xi|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_0xi:7:n_motors_0xi|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_0xi:7:n_motors_0xi|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_0xi:7:n_motors_0xi
+Input             : 56
+Constant Input    : 8
+Unused Input      : 0
+Floating Input    : 8
+Output            : 9
+Constant Output   : 8
+Unused Output     : 8
+Floating Output   : 8
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_0xi:6:n_motors_0xi|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_0xi:6:n_motors_0xi|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_0xi:6:n_motors_0xi|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_0xi:6:n_motors_0xi|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_0xi:6:n_motors_0xi
+Input             : 56
+Constant Input    : 8
+Unused Input      : 0
+Floating Input    : 8
+Output            : 9
+Constant Output   : 8
+Unused Output     : 8
+Floating Output   : 8
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_0xi:5:n_motors_0xi|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_0xi:5:n_motors_0xi|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_0xi:5:n_motors_0xi|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_0xi:5:n_motors_0xi|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_0xi:5:n_motors_0xi
+Input             : 56
+Constant Input    : 8
+Unused Input      : 0
+Floating Input    : 8
+Output            : 9
+Constant Output   : 8
+Unused Output     : 8
+Floating Output   : 8
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_0xi:4:n_motors_0xi|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_0xi:4:n_motors_0xi|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_0xi:4:n_motors_0xi|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_0xi:4:n_motors_0xi|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_0xi:4:n_motors_0xi
+Input             : 56
+Constant Input    : 8
+Unused Input      : 0
+Floating Input    : 8
+Output            : 9
+Constant Output   : 8
+Unused Output     : 8
+Floating Output   : 8
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_0xi:3:n_motors_0xi|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_0xi:3:n_motors_0xi|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_0xi:3:n_motors_0xi|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_0xi:3:n_motors_0xi|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_0xi:3:n_motors_0xi
+Input             : 56
+Constant Input    : 8
+Unused Input      : 0
+Floating Input    : 8
+Output            : 9
+Constant Output   : 8
+Unused Output     : 8
+Floating Output   : 8
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_0xi:2:n_motors_0xi|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_0xi:2:n_motors_0xi|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_0xi:2:n_motors_0xi|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_0xi:2:n_motors_0xi|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_0xi:2:n_motors_0xi
+Input             : 56
+Constant Input    : 8
+Unused Input      : 0
+Floating Input    : 8
+Output            : 9
+Constant Output   : 8
+Unused Output     : 8
+Floating Output   : 8
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_0xi:1:n_motors_0xi|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_0xi:1:n_motors_0xi|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_0xi:1:n_motors_0xi|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_0xi:1:n_motors_0xi|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : \motors_0xi:1:n_motors_0xi
+Input             : 56
+Constant Input    : 8
+Unused Input      : 0
+Floating Input    : 8
+Output            : 9
+Constant Output   : 8
+Unused Output     : 8
+Floating Output   : 8
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : motor_0x0|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : motor_0x0|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : motor_0x0|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : motor_0x0|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : motor_0x0
+Input             : 56
+Constant Input    : 16
+Unused Input      : 0
+Floating Input    : 16
+Output            : 9
+Constant Output   : 16
+Unused Output     : 16
+Floating Output   : 16
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : commands_control
+Input             : 28
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 54
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : reg_status
+Input             : 35
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 32
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : reg_command_data
+Input             : 35
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 32
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : gerador_delay
+Input             : 2
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : timer_8_bits
+Input             : 1
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
++--------------------------------------------------------------------------------+
+

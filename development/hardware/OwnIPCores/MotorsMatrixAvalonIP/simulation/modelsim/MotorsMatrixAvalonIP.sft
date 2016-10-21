@@ -1,0 +1,5 @@
+set tool_name "ModelSim-Altera (VHDL)"
+set corner_file_list {
+	{{"Slow Model"} {MotorsMatrixAvalonIP.vho MotorsMatrixAvalonIP_vhd.sdo}}
+	{{"Fast Model"} {MotorsMatrixAvalonIP_fast.vho MotorsMatrixAvalonIP_vhd_fast.sdo}}
+}

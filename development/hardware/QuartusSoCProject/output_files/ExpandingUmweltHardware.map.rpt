@@ -1,0 +1,1794 @@
+Analysis & Synthesis report for ExpandingUmweltHardware
+Fri Oct 21 19:38:18 2016
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis IP Cores Summary
+  6. Analysis & Synthesis Messages
+  7. Analysis & Synthesis Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                         ;
++------------------------------------+-------------------------------------------------+
+; Analysis & Synthesis Status        ; Failed - Fri Oct 21 19:38:18 2016               ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Revision Name                      ; ExpandingUmweltHardware                         ;
+; Top-level Entity Name              ; ExpandingUmweltHardware                         ;
+; Family                             ; Cyclone II                                      ;
+; Total logic elements               ; N/A until Partition Merge                       ;
+;     Total combinational functions  ; N/A until Partition Merge                       ;
+;     Dedicated logic registers      ; N/A until Partition Merge                       ;
+; Total registers                    ; N/A until Partition Merge                       ;
+; Total pins                         ; N/A until Partition Merge                       ;
+; Total virtual pins                 ; N/A until Partition Merge                       ;
+; Total memory bits                  ; N/A until Partition Merge                       ;
+; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                       ;
+; Total PLLs                         ; N/A until Partition Merge                       ;
++------------------------------------+-------------------------------------------------+
+
+
++--------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                  ;
++--------------------------------------------------------------------------------+
+Option        : Device
+Setting       : EP2C35F672C6
+Default Value : 
+
+Option        : Top-level entity name
+Setting       : ExpandingUmweltHardware
+Default Value : ExpandingUmweltHardware
+
+Option        : Family name
+Setting       : Cyclone II
+Default Value : Cyclone IV GX
+
+Option        : Use smart compilation
+Setting       : Off
+Default Value : Off
+
+Option        : Enable parallel Assembler and TimeQuest Timing Analyzer during compilation
+Setting       : On
+Default Value : On
+
+Option        : Enable compact report table
+Setting       : Off
+Default Value : Off
+
+Option        : Restructure Multiplexers
+Setting       : Auto
+Default Value : Auto
+
+Option        : Create Debugging Nodes for IP Cores
+Setting       : Off
+Default Value : Off
+
+Option        : Preserve fewer node names
+Setting       : On
+Default Value : On
+
+Option        : Disable OpenCore Plus hardware evaluation
+Setting       : Off
+Default Value : Off
+
+Option        : Verilog Version
+Setting       : Verilog_2001
+Default Value : Verilog_2001
+
+Option        : VHDL Version
+Setting       : VHDL_1993
+Default Value : VHDL_1993
+
+Option        : State Machine Processing
+Setting       : Auto
+Default Value : Auto
+
+Option        : Safe State Machine
+Setting       : Off
+Default Value : Off
+
+Option        : Extract Verilog State Machines
+Setting       : On
+Default Value : On
+
+Option        : Extract VHDL State Machines
+Setting       : On
+Default Value : On
+
+Option        : Ignore Verilog initial constructs
+Setting       : Off
+Default Value : Off
+
+Option        : Iteration limit for constant Verilog loops
+Setting       : 5000
+Default Value : 5000
+
+Option        : Iteration limit for non-constant Verilog loops
+Setting       : 250
+Default Value : 250
+
+Option        : Add Pass-Through Logic to Inferred RAMs
+Setting       : On
+Default Value : On
+
+Option        : Infer RAMs from Raw Logic
+Setting       : On
+Default Value : On
+
+Option        : Parallel Synthesis
+Setting       : On
+Default Value : On
+
+Option        : DSP Block Balancing
+Setting       : Auto
+Default Value : Auto
+
+Option        : NOT Gate Push-Back
+Setting       : On
+Default Value : On
+
+Option        : Power-Up Don't Care
+Setting       : On
+Default Value : On
+
+Option        : Remove Redundant Logic Cells
+Setting       : Off
+Default Value : Off
+
+Option        : Remove Duplicate Registers
+Setting       : On
+Default Value : On
+
+Option        : Ignore CARRY Buffers
+Setting       : Off
+Default Value : Off
+
+Option        : Ignore CASCADE Buffers
+Setting       : Off
+Default Value : Off
+
+Option        : Ignore GLOBAL Buffers
+Setting       : Off
+Default Value : Off
+
+Option        : Ignore ROW GLOBAL Buffers
+Setting       : Off
+Default Value : Off
+
+Option        : Ignore LCELL Buffers
+Setting       : Off
+Default Value : Off
+
+Option        : Ignore SOFT Buffers
+Setting       : On
+Default Value : On
+
+Option        : Limit AHDL Integers to 32 Bits
+Setting       : Off
+Default Value : Off
+
+Option        : Optimization Technique
+Setting       : Balanced
+Default Value : Balanced
+
+Option        : Carry Chain Length
+Setting       : 70
+Default Value : 70
+
+Option        : Auto Carry Chains
+Setting       : On
+Default Value : On
+
+Option        : Auto Open-Drain Pins
+Setting       : On
+Default Value : On
+
+Option        : Perform WYSIWYG Primitive Resynthesis
+Setting       : Off
+Default Value : Off
+
+Option        : Auto ROM Replacement
+Setting       : On
+Default Value : On
+
+Option        : Auto RAM Replacement
+Setting       : On
+Default Value : On
+
+Option        : Auto Shift Register Replacement
+Setting       : Auto
+Default Value : Auto
+
+Option        : Allow Shift Register Merging across Hierarchies
+Setting       : Auto
+Default Value : Auto
+
+Option        : Auto Clock Enable Replacement
+Setting       : On
+Default Value : On
+
+Option        : Strict RAM Replacement
+Setting       : Off
+Default Value : Off
+
+Option        : Allow Synchronous Control Signals
+Setting       : On
+Default Value : On
+
+Option        : Force Use of Synchronous Clear Signals
+Setting       : Off
+Default Value : Off
+
+Option        : Auto RAM to Logic Cell Conversion
+Setting       : Off
+Default Value : Off
+
+Option        : Auto Resource Sharing
+Setting       : Off
+Default Value : Off
+
+Option        : Allow Any RAM Size For Recognition
+Setting       : Off
+Default Value : Off
+
+Option        : Allow Any ROM Size For Recognition
+Setting       : Off
+Default Value : Off
+
+Option        : Allow Any Shift Register Size For Recognition
+Setting       : Off
+Default Value : Off
+
+Option        : Use LogicLock Constraints during Resource Balancing
+Setting       : On
+Default Value : On
+
+Option        : Ignore translate_off and synthesis_off directives
+Setting       : Off
+Default Value : Off
+
+Option        : Timing-Driven Synthesis
+Setting       : Off
+Default Value : Off
+
+Option        : Report Parameter Settings
+Setting       : On
+Default Value : On
+
+Option        : Report Source Assignments
+Setting       : On
+Default Value : On
+
+Option        : Report Connectivity Checks
+Setting       : On
+Default Value : On
+
+Option        : Ignore Maximum Fan-Out Assignments
+Setting       : Off
+Default Value : Off
+
+Option        : Synchronization Register Chain Length
+Setting       : 2
+Default Value : 2
+
+Option        : PowerPlay Power Optimization
+Setting       : Normal compilation
+Default Value : Normal compilation
+
+Option        : HDL message level
+Setting       : Level2
+Default Value : Level2
+
+Option        : Suppress Register Optimization Related Messages
+Setting       : Off
+Default Value : Off
+
+Option        : Number of Removed Registers Reported in Synthesis Report
+Setting       : 5000
+Default Value : 5000
+
+Option        : Number of Swept Nodes Reported in Synthesis Report
+Setting       : 5000
+Default Value : 5000
+
+Option        : Number of Inverted Registers Reported in Synthesis Report
+Setting       : 100
+Default Value : 100
+
+Option        : Clock MUX Protection
+Setting       : On
+Default Value : On
+
+Option        : Auto Gated Clock Conversion
+Setting       : Off
+Default Value : Off
+
+Option        : Block Design Naming
+Setting       : Auto
+Default Value : Auto
+
+Option        : SDC constraint protection
+Setting       : Off
+Default Value : Off
+
+Option        : Synthesis Effort
+Setting       : Auto
+Default Value : Auto
+
+Option        : Shift Register Replacement - Allow Asynchronous Clear Signal
+Setting       : On
+Default Value : On
+
+Option        : Pre-Mapping Resynthesis Optimization
+Setting       : Off
+Default Value : Off
+
+Option        : Analysis & Synthesis Message Level
+Setting       : Medium
+Default Value : Medium
+
+Option        : Disable Register Merging Across Hierarchies
+Setting       : Auto
+Default Value : Auto
+
+Option        : Resource Aware Inference For Block RAM
+Setting       : On
+Default Value : On
+
+Option        : Synthesis Seed
+Setting       : 1
+Default Value : 1
++--------------------------------------------------------------------------------+
+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 4      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++--------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                          ;
++--------------------------------------------------------------------------------+
+Vendor          : Altera
+IP Core Name    : Qsys
+Version         : 13.0sp1
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_router
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_addr_router:addr_router
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_addr_router:addr_router|ExpandingUmweltSoCOrganization_addr_router_default_decode:the_default_decode
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_router
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_addr_router_001:addr_router_001
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_addr_router_001:addr_router_001|ExpandingUmweltSoCOrganization_addr_router_001_default_decode:the_default_decode
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_burst_adapter
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|altera_merlin_burst_adapter:burst_adapter
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|altera_merlin_burst_adapter:burst_adapter|altera_merlin_burst_adapter_uncompressed_only:altera_merlin_burst_adapter_uncompressed_only.the_ba
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_demultiplexer
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_cmd_xbar_demux:cmd_xbar_demux
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_demultiplexer
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_cmd_xbar_demux_001:cmd_xbar_demux_001
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_multiplexer
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_cmd_xbar_mux_001:cmd_xbar_mux_001
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_cmd_xbar_mux_001:cmd_xbar_mux_001|altera_merlin_arbitrator:arb
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_multiplexer
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_cmd_xbar_mux_001:cmd_xbar_mux_002
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_cmd_xbar_mux_001:cmd_xbar_mux_002|altera_merlin_arbitrator:arb
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_multiplexer
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_cmd_xbar_mux_001:cmd_xbar_mux_004
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_cmd_xbar_mux_001:cmd_xbar_mux_004|altera_merlin_arbitrator:arb
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_esp8266:esp8266
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_esp8266_s1_translator:esp8266_s1_translator
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_slave_translator
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_esp8266_s1_translator:esp8266_s1_translator|altera_merlin_slave_translator:esp8266_s1_translator
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent:esp8266_s1_translator_avalon_universal_slave_0_agent
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_slave_agent
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent:esp8266_s1_translator_avalon_universal_slave_0_agent|altera_merlin_slave_agent:jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent:esp8266_s1_translator_avalon_universal_slave_0_agent|altera_merlin_slave_agent:jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent|altera_merlin_burst_uncompressor:uncompressor
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo:esp8266_s1_translator_avalon_universal_slave_0_agent_rsp_fifo
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_avalon_sc_fifo
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo:esp8266_s1_translator_avalon_universal_slave_0_agent_rsp_fifo|altera_avalon_sc_fifo:jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_router
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_id_router:id_router
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_id_router:id_router|ExpandingUmweltSoCOrganization_id_router_default_decode:the_default_decode
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_router
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_id_router_001:id_router_001
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_id_router_001:id_router_001|ExpandingUmweltSoCOrganization_id_router_001_default_decode:the_default_decode
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_router
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_id_router_002:id_router_002
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_id_router_002:id_router_002|ExpandingUmweltSoCOrganization_id_router_002_default_decode:the_default_decode
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_router
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_id_router:id_router_003
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_id_router:id_router_003|ExpandingUmweltSoCOrganization_id_router_default_decode:the_default_decode
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_router
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_id_router_001:id_router_004
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_id_router_001:id_router_004|ExpandingUmweltSoCOrganization_id_router_001_default_decode:the_default_decode
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_router
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_id_router:id_router_005
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_id_router:id_router_005|ExpandingUmweltSoCOrganization_id_router_default_decode:the_default_decode
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_irq_mapper
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_irq_mapper:irq_mapper
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_avalon_jtag_uart
+Version         : 13.0.1.99.2
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_jtag_uart_0:jtag_uart_0
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_jtag_uart_0:jtag_uart_0|ExpandingUmweltSoCOrganization_jtag_uart_0_scfifo_r:the_ExpandingUmweltSoCOrganization_jtag_uart_0_scfifo_r
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_jtag_uart_0:jtag_uart_0|ExpandingUmweltSoCOrganization_jtag_uart_0_scfifo_w:the_ExpandingUmweltSoCOrganization_jtag_uart_0_scfifo_w
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator:jtag_uart_0_avalon_jtag_slave_translator
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_slave_translator
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator:jtag_uart_0_avalon_jtag_slave_translator|altera_merlin_slave_translator:jtag_uart_0_avalon_jtag_slave_translator
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent:jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_slave_agent
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent:jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent|altera_merlin_slave_agent:jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent:jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent|altera_merlin_slave_agent:jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent|altera_merlin_burst_uncompressor:uncompressor
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo:jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_avalon_sc_fifo
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo:jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo|altera_avalon_sc_fifo:jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|matriz_avalon_interface:matriz_avalon_interface_0
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_matriz_avalon_interface_0_aslave_translator:matriz_avalon_interface_0_aslave_translator
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_slave_translator
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_matriz_avalon_interface_0_aslave_translator:matriz_avalon_interface_0_aslave_translator|altera_merlin_slave_translator:matriz_avalon_interface_0_aslave_translator
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent:matriz_avalon_interface_0_aslave_translator_avalon_universal_slave_0_agent
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_slave_agent
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent:matriz_avalon_interface_0_aslave_translator_avalon_universal_slave_0_agent|altera_merlin_slave_agent:jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent:matriz_avalon_interface_0_aslave_translator_avalon_universal_slave_0_agent|altera_merlin_slave_agent:jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent|altera_merlin_burst_uncompressor:uncompressor
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo:matriz_avalon_interface_0_aslave_translator_avalon_universal_slave_0_agent_rsp_fifo
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_avalon_sc_fifo
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo:matriz_avalon_interface_0_aslave_translator_avalon_universal_slave_0_agent_rsp_fifo|altera_avalon_sc_fifo:jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_nios2_data_master_translator:nios2_data_master_translator
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_master_translator
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_nios2_data_master_translator:nios2_data_master_translator|altera_merlin_master_translator:nios2_data_master_translator
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_master_agent
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|altera_merlin_master_agent:nios2_data_master_translator_avalon_universal_master_0_agent
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_nios2_instruction_master_translator:nios2_instruction_master_translator
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_master_translator
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_nios2_instruction_master_translator:nios2_instruction_master_translator|altera_merlin_master_translator:nios2_instruction_master_translator
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_master_agent
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|altera_merlin_master_agent:nios2_instruction_master_translator_avalon_universal_master_0_agent
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_nios2_jtag_debug_module_translator:nios2_jtag_debug_module_translator
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_slave_translator
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_nios2_jtag_debug_module_translator:nios2_jtag_debug_module_translator|altera_merlin_slave_translator:nios2_jtag_debug_module_translator
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent:nios2_jtag_debug_module_translator_avalon_universal_slave_0_agent
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_slave_agent
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent:nios2_jtag_debug_module_translator_avalon_universal_slave_0_agent|altera_merlin_slave_agent:jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent:nios2_jtag_debug_module_translator_avalon_universal_slave_0_agent|altera_merlin_slave_agent:jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent|altera_merlin_burst_uncompressor:uncompressor
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo:nios2_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_avalon_sc_fifo
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo:nios2_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo|altera_avalon_sc_fifo:jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_avalon_onchip_memory2
+Version         : 13.0.1.99.2
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_onchip_memory2_0:onchip_memory2_0
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_onchip_memory2_0_s1_translator:onchip_memory2_0_s1_translator
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_slave_translator
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_onchip_memory2_0_s1_translator:onchip_memory2_0_s1_translator|altera_merlin_slave_translator:onchip_memory2_0_s1_translator
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent:onchip_memory2_0_s1_translator_avalon_universal_slave_0_agent
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_slave_agent
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent:onchip_memory2_0_s1_translator_avalon_universal_slave_0_agent|altera_merlin_slave_agent:jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent:onchip_memory2_0_s1_translator_avalon_universal_slave_0_agent|altera_merlin_slave_agent:jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent|altera_merlin_burst_uncompressor:uncompressor
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo:onchip_memory2_0_s1_translator_avalon_universal_slave_0_agent_rsp_fifo
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_avalon_sc_fifo
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo:onchip_memory2_0_s1_translator_avalon_universal_slave_0_agent_rsp_fifo|altera_avalon_sc_fifo:jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_demultiplexer
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_rsp_xbar_demux:rsp_xbar_demux
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_demultiplexer
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_rsp_xbar_demux_001:rsp_xbar_demux_001
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_demultiplexer
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_rsp_xbar_demux_001:rsp_xbar_demux_002
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_demultiplexer
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_rsp_xbar_demux:rsp_xbar_demux_003
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_demultiplexer
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_rsp_xbar_demux_001:rsp_xbar_demux_004
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_demultiplexer
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_rsp_xbar_demux:rsp_xbar_demux_005
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_multiplexer
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_rsp_xbar_mux:rsp_xbar_mux
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_rsp_xbar_mux:rsp_xbar_mux|altera_merlin_arbitrator:arb
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_multiplexer
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_rsp_xbar_mux_001:rsp_xbar_mux_001
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_rsp_xbar_mux_001:rsp_xbar_mux_001|altera_merlin_arbitrator:arb
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_reset_controller
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|altera_reset_controller:rst_controller
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|altera_reset_controller:rst_controller|altera_reset_synchronizer:alt_rst_sync_uq1
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_avalon_new_sdram_controller
+Version         : 13.0.1.99.2
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_sdram:sdram
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_sdram:sdram|ExpandingUmweltSoCOrganization_sdram_input_efifo_module:the_ExpandingUmweltSoCOrganization_sdram_input_efifo_module
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_sdram_s1_translator:sdram_s1_translator
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_slave_translator
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_sdram_s1_translator:sdram_s1_translator|altera_merlin_slave_translator:sdram_s1_translator
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent:sdram_s1_translator_avalon_universal_slave_0_agent
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_slave_agent
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent:sdram_s1_translator_avalon_universal_slave_0_agent|altera_merlin_slave_agent:sdram_s1_translator_avalon_universal_slave_0_agent
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent:sdram_s1_translator_avalon_universal_slave_0_agent|altera_merlin_slave_agent:sdram_s1_translator_avalon_universal_slave_0_agent|altera_merlin_burst_uncompressor:uncompressor
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent_rdata_fifo:sdram_s1_translator_avalon_universal_slave_0_agent_rdata_fifo
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_avalon_sc_fifo
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent_rdata_fifo:sdram_s1_translator_avalon_universal_slave_0_agent_rdata_fifo|altera_avalon_sc_fifo:sdram_s1_translator_avalon_universal_slave_0_agent_rdata_fifo
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent_rsp_fifo:sdram_s1_translator_avalon_universal_slave_0_agent_rsp_fifo
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_avalon_sc_fifo
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent_rsp_fifo:sdram_s1_translator_avalon_universal_slave_0_agent_rsp_fifo|altera_avalon_sc_fifo:sdram_s1_translator_avalon_universal_slave_0_agent_rsp_fifo
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_width_adapter:width_adapter
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_width_adapter
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_width_adapter:width_adapter|altera_merlin_width_adapter:width_adapter
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_width_adapter_001:width_adapter_001
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_merlin_width_adapter
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_width_adapter_001:width_adapter_001|altera_merlin_width_adapter:width_adapter_001
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
+
+Vendor          : Altera
+IP Core Name    : altera_nios2_qsys
+Version         : 13.0
+Release Date    : N/A
+License Type    : N/A
+Entity Instance : |ExpandingUmweltHardware|ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_width_adapter_001:width_adapter_001|altera_merlin_width_adapter:width_adapter_001|altera_merlin_burst_uncompressor:uncompressor
+IP Include File : ../QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/../../ExpandingUmweltSoCOrganization.qsys
++--------------------------------------------------------------------------------+
+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Fri Oct 21 19:38:13 2016
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ExpandingUmweltHardware -c ExpandingUmweltHardware
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (12021): Found 2 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/ExpandingUmweltSoCOrganization.vhd
+    Info (12022): Found design unit 1: ExpandingUmweltSoCOrganization-rtl
+    Info (12023): Found entity 1: ExpandingUmweltSoCOrganization
+Info (12021): Found 2 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo.vhd
+    Info (12022): Found design unit 1: expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo-rtl
+    Info (12023): Found entity 1: expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo
+Info (12021): Found 2 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent_rsp_fifo.vhd
+    Info (12022): Found design unit 1: expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent_rsp_fifo-rtl
+    Info (12023): Found entity 1: expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent_rsp_fifo
+Info (12021): Found 2 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent_rdata_fifo.vhd
+    Info (12022): Found design unit 1: expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent_rdata_fifo-rtl
+    Info (12023): Found entity 1: expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent_rdata_fifo
+Info (12021): Found 2 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent.vhd
+    Info (12022): Found design unit 1: expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent-rtl
+    Info (12023): Found entity 1: expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent
+Info (12021): Found 2 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent.vhd
+    Info (12022): Found design unit 1: expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent-rtl
+    Info (12023): Found entity 1: expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent
+Info (12021): Found 2 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/expandingumweltsocorganization_width_adapter.vhd
+    Info (12022): Found design unit 1: expandingumweltsocorganization_width_adapter-rtl
+    Info (12023): Found entity 1: expandingumweltsocorganization_width_adapter
+Info (12021): Found 2 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/expandingumweltsocorganization_width_adapter_001.vhd
+    Info (12022): Found design unit 1: expandingumweltsocorganization_width_adapter_001-rtl
+    Info (12023): Found entity 1: expandingumweltsocorganization_width_adapter_001
+Info (12021): Found 2 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/expandingumweltsocorganization_nios2_data_master_translator.vhd
+    Info (12022): Found design unit 1: expandingumweltsocorganization_nios2_data_master_translator-rtl
+    Info (12023): Found entity 1: expandingumweltsocorganization_nios2_data_master_translator
+Info (12021): Found 2 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/expandingumweltsocorganization_nios2_instruction_master_translator.vhd
+    Info (12022): Found design unit 1: expandingumweltsocorganization_nios2_instruction_master_translator-rtl
+    Info (12023): Found entity 1: expandingumweltsocorganization_nios2_instruction_master_translator
+Info (12021): Found 2 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator.vhd
+    Info (12022): Found design unit 1: expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator-rtl
+    Info (12023): Found entity 1: expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator
+Info (12021): Found 2 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/expandingumweltsocorganization_onchip_memory2_0_s1_translator.vhd
+    Info (12022): Found design unit 1: expandingumweltsocorganization_onchip_memory2_0_s1_translator-rtl
+    Info (12023): Found entity 1: expandingumweltsocorganization_onchip_memory2_0_s1_translator
+Info (12021): Found 2 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/expandingumweltsocorganization_sdram_s1_translator.vhd
+    Info (12022): Found design unit 1: expandingumweltsocorganization_sdram_s1_translator-rtl
+    Info (12023): Found entity 1: expandingumweltsocorganization_sdram_s1_translator
+Info (12021): Found 2 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/expandingumweltsocorganization_esp8266_s1_translator.vhd
+    Info (12022): Found design unit 1: expandingumweltsocorganization_esp8266_s1_translator-rtl
+    Info (12023): Found entity 1: expandingumweltsocorganization_esp8266_s1_translator
+Info (12021): Found 2 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/expandingumweltsocorganization_nios2_jtag_debug_module_translator.vhd
+    Info (12022): Found design unit 1: expandingumweltsocorganization_nios2_jtag_debug_module_translator-rtl
+    Info (12023): Found entity 1: expandingumweltsocorganization_nios2_jtag_debug_module_translator
+Info (12021): Found 2 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/expandingumweltsocorganization_matriz_avalon_interface_0_aslave_translator.vhd
+    Info (12022): Found design unit 1: expandingumweltsocorganization_matriz_avalon_interface_0_aslave_translator-rtl
+    Info (12023): Found entity 1: expandingumweltsocorganization_matriz_avalon_interface_0_aslave_translator
+Info (12021): Found 1 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/ExpandingUmweltSoCOrganization_irq_mapper.sv
+    Info (12023): Found entity 1: ExpandingUmweltSoCOrganization_irq_mapper
+Info (12021): Found 1 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/altera_merlin_width_adapter.sv
+    Info (12023): Found entity 1: altera_merlin_width_adapter
+Info (12021): Found 1 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/altera_merlin_address_alignment.sv
+    Info (12023): Found entity 1: altera_merlin_address_alignment
+Info (12021): Found 1 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+    Info (12023): Found entity 1: altera_merlin_burst_uncompressor
+Info (12021): Found 2 design units, including 2 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/altera_merlin_arbitrator.sv
+    Info (12023): Found entity 1: altera_merlin_arbitrator
+    Info (12023): Found entity 2: altera_merlin_arb_adder
+Info (12021): Found 1 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/ExpandingUmweltSoCOrganization_rsp_xbar_mux_001.sv
+    Info (12023): Found entity 1: ExpandingUmweltSoCOrganization_rsp_xbar_mux_001
+Info (12021): Found 1 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/ExpandingUmweltSoCOrganization_rsp_xbar_mux.sv
+    Info (12023): Found entity 1: ExpandingUmweltSoCOrganization_rsp_xbar_mux
+Info (12021): Found 1 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/ExpandingUmweltSoCOrganization_rsp_xbar_demux_001.sv
+    Info (12023): Found entity 1: ExpandingUmweltSoCOrganization_rsp_xbar_demux_001
+Info (12021): Found 1 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/ExpandingUmweltSoCOrganization_rsp_xbar_demux.sv
+    Info (12023): Found entity 1: ExpandingUmweltSoCOrganization_rsp_xbar_demux
+Info (12021): Found 1 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/ExpandingUmweltSoCOrganization_cmd_xbar_mux_001.sv
+    Info (12023): Found entity 1: ExpandingUmweltSoCOrganization_cmd_xbar_mux_001
+Info (12021): Found 1 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/ExpandingUmweltSoCOrganization_cmd_xbar_demux_001.sv
+    Info (12023): Found entity 1: ExpandingUmweltSoCOrganization_cmd_xbar_demux_001
+Info (12021): Found 1 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/ExpandingUmweltSoCOrganization_cmd_xbar_demux.sv
+    Info (12023): Found entity 1: ExpandingUmweltSoCOrganization_cmd_xbar_demux
+Info (12021): Found 1 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/altera_reset_controller.v
+    Info (12023): Found entity 1: altera_reset_controller
+Info (12021): Found 1 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/altera_reset_synchronizer.v
+    Info (12023): Found entity 1: altera_reset_synchronizer
+Info (12021): Found 7 design units, including 7 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/altera_merlin_burst_adapter.sv
+    Info (12023): Found entity 1: altera_merlin_burst_adapter_burstwrap_increment
+    Info (12023): Found entity 2: altera_merlin_burst_adapter_adder
+    Info (12023): Found entity 3: altera_merlin_burst_adapter_subtractor
+    Info (12023): Found entity 4: altera_merlin_burst_adapter_min
+    Info (12023): Found entity 5: altera_merlin_burst_adapter
+    Info (12023): Found entity 6: altera_merlin_burst_adapter_uncompressed_only
+    Info (12023): Found entity 7: altera_merlin_burst_adapter_full
+Info (12021): Found 2 design units, including 2 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/ExpandingUmweltSoCOrganization_id_router_002.sv
+    Info (12023): Found entity 1: ExpandingUmweltSoCOrganization_id_router_002_default_decode
+    Info (12023): Found entity 2: ExpandingUmweltSoCOrganization_id_router_002
+Info (12021): Found 2 design units, including 2 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/ExpandingUmweltSoCOrganization_id_router_001.sv
+    Info (12023): Found entity 1: ExpandingUmweltSoCOrganization_id_router_001_default_decode
+    Info (12023): Found entity 2: ExpandingUmweltSoCOrganization_id_router_001
+Info (12021): Found 2 design units, including 2 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/ExpandingUmweltSoCOrganization_id_router.sv
+    Info (12023): Found entity 1: ExpandingUmweltSoCOrganization_id_router_default_decode
+    Info (12023): Found entity 2: ExpandingUmweltSoCOrganization_id_router
+Info (12021): Found 2 design units, including 2 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/ExpandingUmweltSoCOrganization_addr_router_001.sv
+    Info (12023): Found entity 1: ExpandingUmweltSoCOrganization_addr_router_001_default_decode
+    Info (12023): Found entity 2: ExpandingUmweltSoCOrganization_addr_router_001
+Info (12021): Found 2 design units, including 2 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/ExpandingUmweltSoCOrganization_addr_router.sv
+    Info (12023): Found entity 1: ExpandingUmweltSoCOrganization_addr_router_default_decode
+    Info (12023): Found entity 2: ExpandingUmweltSoCOrganization_addr_router
+Info (12021): Found 1 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/altera_avalon_sc_fifo.v
+    Info (12023): Found entity 1: altera_avalon_sc_fifo
+Info (12021): Found 1 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/altera_merlin_slave_agent.sv
+    Info (12023): Found entity 1: altera_merlin_slave_agent
+Info (12021): Found 1 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/altera_merlin_master_agent.sv
+    Info (12023): Found entity 1: altera_merlin_master_agent
+Info (12021): Found 1 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/altera_merlin_slave_translator.sv
+    Info (12023): Found entity 1: altera_merlin_slave_translator
+Info (12021): Found 1 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/altera_merlin_master_translator.sv
+    Info (12023): Found entity 1: altera_merlin_master_translator
+Info (12021): Found 2 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/matriz_avalon_interface.vhd
+    Info (12022): Found design unit 1: matriz_avalon_interface-matriz_avalon_interface_arch
+    Info (12023): Found entity 1: matriz_avalon_interface
+Info (12021): Found 7 design units, including 7 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/ExpandingUmweltSoCOrganization_esp8266.v
+    Info (12023): Found entity 1: ExpandingUmweltSoCOrganization_esp8266_tx
+    Info (12023): Found entity 2: ExpandingUmweltSoCOrganization_esp8266_rx_stimulus_source
+    Info (12023): Found entity 3: ExpandingUmweltSoCOrganization_esp8266_rx
+    Info (12023): Found entity 4: ExpandingUmweltSoCOrganization_esp8266_txfifo
+    Info (12023): Found entity 5: ExpandingUmweltSoCOrganization_esp8266_rxfifo
+    Info (12023): Found entity 6: ExpandingUmweltSoCOrganization_esp8266_regs
+    Info (12023): Found entity 7: ExpandingUmweltSoCOrganization_esp8266
+Info (12021): Found 2 design units, including 2 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/ExpandingUmweltSoCOrganization_sdram.v
+    Info (12023): Found entity 1: ExpandingUmweltSoCOrganization_sdram_input_efifo_module
+    Info (12023): Found entity 2: ExpandingUmweltSoCOrganization_sdram
+Info (12021): Found 1 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/ExpandingUmweltSoCOrganization_onchip_memory2_0.v
+    Info (12023): Found entity 1: ExpandingUmweltSoCOrganization_onchip_memory2_0
+Info (12021): Found 5 design units, including 5 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/ExpandingUmweltSoCOrganization_jtag_uart_0.v
+    Info (12023): Found entity 1: ExpandingUmweltSoCOrganization_jtag_uart_0_sim_scfifo_w
+    Info (12023): Found entity 2: ExpandingUmweltSoCOrganization_jtag_uart_0_scfifo_w
+    Info (12023): Found entity 3: ExpandingUmweltSoCOrganization_jtag_uart_0_sim_scfifo_r
+    Info (12023): Found entity 4: ExpandingUmweltSoCOrganization_jtag_uart_0_scfifo_r
+    Info (12023): Found entity 5: ExpandingUmweltSoCOrganization_jtag_uart_0
+Info (12021): Found 1 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_tck.v
+    Info (12023): Found entity 1: ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_tck
+Info (12021): Found 1 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/ExpandingUmweltSoCOrganization_nios2_oci_test_bench.v
+    Info (12023): Found entity 1: ExpandingUmweltSoCOrganization_nios2_oci_test_bench
+Info (12021): Found 21 design units, including 21 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/ExpandingUmweltSoCOrganization_nios2.v
+    Info (12023): Found entity 1: ExpandingUmweltSoCOrganization_nios2_register_bank_a_module
+    Info (12023): Found entity 2: ExpandingUmweltSoCOrganization_nios2_register_bank_b_module
+    Info (12023): Found entity 3: ExpandingUmweltSoCOrganization_nios2_nios2_oci_debug
+    Info (12023): Found entity 4: ExpandingUmweltSoCOrganization_nios2_ociram_sp_ram_module
+    Info (12023): Found entity 5: ExpandingUmweltSoCOrganization_nios2_nios2_ocimem
+    Info (12023): Found entity 6: ExpandingUmweltSoCOrganization_nios2_nios2_avalon_reg
+    Info (12023): Found entity 7: ExpandingUmweltSoCOrganization_nios2_nios2_oci_break
+    Info (12023): Found entity 8: ExpandingUmweltSoCOrganization_nios2_nios2_oci_xbrk
+    Info (12023): Found entity 9: ExpandingUmweltSoCOrganization_nios2_nios2_oci_dbrk
+    Info (12023): Found entity 10: ExpandingUmweltSoCOrganization_nios2_nios2_oci_itrace
+    Info (12023): Found entity 11: ExpandingUmweltSoCOrganization_nios2_nios2_oci_td_mode
+    Info (12023): Found entity 12: ExpandingUmweltSoCOrganization_nios2_nios2_oci_dtrace
+    Info (12023): Found entity 13: ExpandingUmweltSoCOrganization_nios2_nios2_oci_compute_tm_count
+    Info (12023): Found entity 14: ExpandingUmweltSoCOrganization_nios2_nios2_oci_fifowp_inc
+    Info (12023): Found entity 15: ExpandingUmweltSoCOrganization_nios2_nios2_oci_fifocount_inc
+    Info (12023): Found entity 16: ExpandingUmweltSoCOrganization_nios2_nios2_oci_fifo
+    Info (12023): Found entity 17: ExpandingUmweltSoCOrganization_nios2_nios2_oci_pib
+    Info (12023): Found entity 18: ExpandingUmweltSoCOrganization_nios2_nios2_oci_im
+    Info (12023): Found entity 19: ExpandingUmweltSoCOrganization_nios2_nios2_performance_monitors
+    Info (12023): Found entity 20: ExpandingUmweltSoCOrganization_nios2_nios2_oci
+    Info (12023): Found entity 21: ExpandingUmweltSoCOrganization_nios2
+Info (12021): Found 1 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_sysclk.v
+    Info (12023): Found entity 1: ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_sysclk
+Info (12021): Found 1 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_wrapper.v
+    Info (12023): Found entity 1: ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_wrapper
+Info (12021): Found 1 design units, including 1 entities, in source file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/ExpandingUmweltSoCOrganization_nios2_test_bench.v
+    Info (12023): Found entity 1: ExpandingUmweltSoCOrganization_nios2_test_bench
+Info (12021): Found 2 design units, including 1 entities, in source file ExpandingUmweltHardware.vhd
+    Info (12022): Found design unit 1: ExpandingUmweltHardware-socniosii
+    Info (12023): Found entity 1: ExpandingUmweltHardware
+Warning (10037): Verilog HDL or VHDL warning at ExpandingUmweltSoCOrganization_sdram.v(316): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at ExpandingUmweltSoCOrganization_sdram.v(326): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at ExpandingUmweltSoCOrganization_sdram.v(336): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at ExpandingUmweltSoCOrganization_sdram.v(680): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at ExpandingUmweltSoCOrganization_nios2.v(1567): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at ExpandingUmweltSoCOrganization_nios2.v(1569): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at ExpandingUmweltSoCOrganization_nios2.v(1725): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at ExpandingUmweltSoCOrganization_nios2.v(2553): conditional expression evaluates to a constant
+Info (12127): Elaborating entity "ExpandingUmweltHardware" for the top level hierarchy
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization" for hierarchy "ExpandingUmweltSoCOrganization:soc"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_nios2" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_nios2_test_bench" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_test_bench:the_ExpandingUmweltSoCOrganization_nios2_test_bench"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_nios2_register_bank_a_module" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_register_bank_a_module:ExpandingUmweltSoCOrganization_nios2_register_bank_a"
+Info (12128): Elaborating entity "altsyncram" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_register_bank_a_module:ExpandingUmweltSoCOrganization_nios2_register_bank_a|altsyncram:the_altsyncram"
+Info (12130): Elaborated megafunction instantiation "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_register_bank_a_module:ExpandingUmweltSoCOrganization_nios2_register_bank_a|altsyncram:the_altsyncram"
+Info (12133): Instantiated megafunction "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_register_bank_a_module:ExpandingUmweltSoCOrganization_nios2_register_bank_a|altsyncram:the_altsyncram" with the following parameter:
+    Info (12134): Parameter "address_reg_b" = "CLOCK0"
+    Info (12134): Parameter "init_file" = "ExpandingUmweltSoCOrganization_nios2_rf_ram_a.mif"
+    Info (12134): Parameter "maximum_depth" = "0"
+    Info (12134): Parameter "numwords_a" = "32"
+    Info (12134): Parameter "numwords_b" = "32"
+    Info (12134): Parameter "operation_mode" = "DUAL_PORT"
+    Info (12134): Parameter "outdata_reg_b" = "UNREGISTERED"
+    Info (12134): Parameter "ram_block_type" = "AUTO"
+    Info (12134): Parameter "rdcontrol_reg_b" = "CLOCK0"
+    Info (12134): Parameter "read_during_write_mode_mixed_ports" = "DONT_CARE"
+    Info (12134): Parameter "width_a" = "32"
+    Info (12134): Parameter "width_b" = "32"
+    Info (12134): Parameter "widthad_a" = "5"
+    Info (12134): Parameter "widthad_b" = "5"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_8ki1.tdf
+    Info (12023): Found entity 1: altsyncram_8ki1
+Info (12128): Elaborating entity "altsyncram_8ki1" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_register_bank_a_module:ExpandingUmweltSoCOrganization_nios2_register_bank_a|altsyncram:the_altsyncram|altsyncram_8ki1:auto_generated"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_nios2_register_bank_b_module" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_register_bank_b_module:ExpandingUmweltSoCOrganization_nios2_register_bank_b"
+Info (12128): Elaborating entity "altsyncram" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_register_bank_b_module:ExpandingUmweltSoCOrganization_nios2_register_bank_b|altsyncram:the_altsyncram"
+Info (12130): Elaborated megafunction instantiation "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_register_bank_b_module:ExpandingUmweltSoCOrganization_nios2_register_bank_b|altsyncram:the_altsyncram"
+Info (12133): Instantiated megafunction "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_register_bank_b_module:ExpandingUmweltSoCOrganization_nios2_register_bank_b|altsyncram:the_altsyncram" with the following parameter:
+    Info (12134): Parameter "address_reg_b" = "CLOCK0"
+    Info (12134): Parameter "init_file" = "ExpandingUmweltSoCOrganization_nios2_rf_ram_b.mif"
+    Info (12134): Parameter "maximum_depth" = "0"
+    Info (12134): Parameter "numwords_a" = "32"
+    Info (12134): Parameter "numwords_b" = "32"
+    Info (12134): Parameter "operation_mode" = "DUAL_PORT"
+    Info (12134): Parameter "outdata_reg_b" = "UNREGISTERED"
+    Info (12134): Parameter "ram_block_type" = "AUTO"
+    Info (12134): Parameter "rdcontrol_reg_b" = "CLOCK0"
+    Info (12134): Parameter "read_during_write_mode_mixed_ports" = "DONT_CARE"
+    Info (12134): Parameter "width_a" = "32"
+    Info (12134): Parameter "width_b" = "32"
+    Info (12134): Parameter "widthad_a" = "5"
+    Info (12134): Parameter "widthad_b" = "5"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_9ki1.tdf
+    Info (12023): Found entity 1: altsyncram_9ki1
+Info (12128): Elaborating entity "altsyncram_9ki1" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_register_bank_b_module:ExpandingUmweltSoCOrganization_nios2_register_bank_b|altsyncram:the_altsyncram|altsyncram_9ki1:auto_generated"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_nios2_nios2_oci" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_nios2_oci:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_nios2_nios2_oci_debug" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_nios2_oci:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci|ExpandingUmweltSoCOrganization_nios2_nios2_oci_debug:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci_debug"
+Info (12128): Elaborating entity "altera_std_synchronizer" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_nios2_oci:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci|ExpandingUmweltSoCOrganization_nios2_nios2_oci_debug:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci_debug|altera_std_synchronizer:the_altera_std_synchronizer"
+Info (12130): Elaborated megafunction instantiation "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_nios2_oci:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci|ExpandingUmweltSoCOrganization_nios2_nios2_oci_debug:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci_debug|altera_std_synchronizer:the_altera_std_synchronizer"
+Info (12133): Instantiated megafunction "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_nios2_oci:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci|ExpandingUmweltSoCOrganization_nios2_nios2_oci_debug:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci_debug|altera_std_synchronizer:the_altera_std_synchronizer" with the following parameter:
+    Info (12134): Parameter "depth" = "2"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_nios2_nios2_ocimem" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_nios2_oci:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci|ExpandingUmweltSoCOrganization_nios2_nios2_ocimem:the_ExpandingUmweltSoCOrganization_nios2_nios2_ocimem"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_nios2_ociram_sp_ram_module" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_nios2_oci:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci|ExpandingUmweltSoCOrganization_nios2_nios2_ocimem:the_ExpandingUmweltSoCOrganization_nios2_nios2_ocimem|ExpandingUmweltSoCOrganization_nios2_ociram_sp_ram_module:ExpandingUmweltSoCOrganization_nios2_ociram_sp_ram"
+Info (12128): Elaborating entity "altsyncram" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_nios2_oci:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci|ExpandingUmweltSoCOrganization_nios2_nios2_ocimem:the_ExpandingUmweltSoCOrganization_nios2_nios2_ocimem|ExpandingUmweltSoCOrganization_nios2_ociram_sp_ram_module:ExpandingUmweltSoCOrganization_nios2_ociram_sp_ram|altsyncram:the_altsyncram"
+Info (12130): Elaborated megafunction instantiation "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_nios2_oci:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci|ExpandingUmweltSoCOrganization_nios2_nios2_ocimem:the_ExpandingUmweltSoCOrganization_nios2_nios2_ocimem|ExpandingUmweltSoCOrganization_nios2_ociram_sp_ram_module:ExpandingUmweltSoCOrganization_nios2_ociram_sp_ram|altsyncram:the_altsyncram"
+Info (12133): Instantiated megafunction "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_nios2_oci:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci|ExpandingUmweltSoCOrganization_nios2_nios2_ocimem:the_ExpandingUmweltSoCOrganization_nios2_nios2_ocimem|ExpandingUmweltSoCOrganization_nios2_ociram_sp_ram_module:ExpandingUmweltSoCOrganization_nios2_ociram_sp_ram|altsyncram:the_altsyncram" with the following parameter:
+    Info (12134): Parameter "init_file" = "ExpandingUmweltSoCOrganization_nios2_ociram_default_contents.mif"
+    Info (12134): Parameter "maximum_depth" = "0"
+    Info (12134): Parameter "numwords_a" = "256"
+    Info (12134): Parameter "operation_mode" = "SINGLE_PORT"
+    Info (12134): Parameter "outdata_reg_a" = "UNREGISTERED"
+    Info (12134): Parameter "ram_block_type" = "AUTO"
+    Info (12134): Parameter "width_a" = "32"
+    Info (12134): Parameter "width_byteena_a" = "4"
+    Info (12134): Parameter "widthad_a" = "8"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_c1a1.tdf
+    Info (12023): Found entity 1: altsyncram_c1a1
+Info (12128): Elaborating entity "altsyncram_c1a1" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_nios2_oci:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci|ExpandingUmweltSoCOrganization_nios2_nios2_ocimem:the_ExpandingUmweltSoCOrganization_nios2_nios2_ocimem|ExpandingUmweltSoCOrganization_nios2_ociram_sp_ram_module:ExpandingUmweltSoCOrganization_nios2_ociram_sp_ram|altsyncram:the_altsyncram|altsyncram_c1a1:auto_generated"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_nios2_nios2_avalon_reg" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_nios2_oci:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci|ExpandingUmweltSoCOrganization_nios2_nios2_avalon_reg:the_ExpandingUmweltSoCOrganization_nios2_nios2_avalon_reg"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_nios2_nios2_oci_break" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_nios2_oci:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci|ExpandingUmweltSoCOrganization_nios2_nios2_oci_break:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci_break"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_nios2_nios2_oci_xbrk" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_nios2_oci:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci|ExpandingUmweltSoCOrganization_nios2_nios2_oci_xbrk:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci_xbrk"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_nios2_nios2_oci_dbrk" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_nios2_oci:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci|ExpandingUmweltSoCOrganization_nios2_nios2_oci_dbrk:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci_dbrk"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_nios2_nios2_oci_itrace" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_nios2_oci:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci|ExpandingUmweltSoCOrganization_nios2_nios2_oci_itrace:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci_itrace"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_nios2_nios2_oci_dtrace" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_nios2_oci:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci|ExpandingUmweltSoCOrganization_nios2_nios2_oci_dtrace:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci_dtrace"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_nios2_nios2_oci_td_mode" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_nios2_oci:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci|ExpandingUmweltSoCOrganization_nios2_nios2_oci_dtrace:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci_dtrace|ExpandingUmweltSoCOrganization_nios2_nios2_oci_td_mode:ExpandingUmweltSoCOrganization_nios2_nios2_oci_trc_ctrl_td_mode"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_nios2_nios2_oci_fifo" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_nios2_oci:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci|ExpandingUmweltSoCOrganization_nios2_nios2_oci_fifo:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci_fifo"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_nios2_nios2_oci_compute_tm_count" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_nios2_oci:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci|ExpandingUmweltSoCOrganization_nios2_nios2_oci_fifo:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci_fifo|ExpandingUmweltSoCOrganization_nios2_nios2_oci_compute_tm_count:ExpandingUmweltSoCOrganization_nios2_nios2_oci_compute_tm_count_tm_count"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_nios2_nios2_oci_fifowp_inc" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_nios2_oci:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci|ExpandingUmweltSoCOrganization_nios2_nios2_oci_fifo:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci_fifo|ExpandingUmweltSoCOrganization_nios2_nios2_oci_fifowp_inc:ExpandingUmweltSoCOrganization_nios2_nios2_oci_fifowp_inc_fifowp"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_nios2_nios2_oci_fifocount_inc" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_nios2_oci:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci|ExpandingUmweltSoCOrganization_nios2_nios2_oci_fifo:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci_fifo|ExpandingUmweltSoCOrganization_nios2_nios2_oci_fifocount_inc:ExpandingUmweltSoCOrganization_nios2_nios2_oci_fifocount_inc_fifocount"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_nios2_oci_test_bench" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_nios2_oci:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci|ExpandingUmweltSoCOrganization_nios2_nios2_oci_fifo:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci_fifo|ExpandingUmweltSoCOrganization_nios2_oci_test_bench:the_ExpandingUmweltSoCOrganization_nios2_oci_test_bench"
+Warning (12158): Entity "ExpandingUmweltSoCOrganization_nios2_oci_test_bench" contains only dangling pins
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_nios2_nios2_oci_pib" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_nios2_oci:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci|ExpandingUmweltSoCOrganization_nios2_nios2_oci_pib:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci_pib"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_nios2_nios2_oci_im" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_nios2_oci:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci|ExpandingUmweltSoCOrganization_nios2_nios2_oci_im:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci_im"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_wrapper" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_nios2_oci:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci|ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_wrapper:the_ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_wrapper"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_tck" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_nios2_oci:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci|ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_wrapper:the_ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_wrapper|ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_tck:the_ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_tck"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_sysclk" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_nios2_oci:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci|ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_wrapper:the_ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_wrapper|ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_sysclk:the_ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_sysclk"
+Info (12128): Elaborating entity "sld_virtual_jtag_basic" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_nios2_oci:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci|ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_wrapper:the_ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_wrapper|sld_virtual_jtag_basic:ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_phy"
+Info (12130): Elaborated megafunction instantiation "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_nios2_oci:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci|ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_wrapper:the_ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_wrapper|sld_virtual_jtag_basic:ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_phy"
+Info (12133): Instantiated megafunction "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_nios2_oci:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci|ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_wrapper:the_ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_wrapper|sld_virtual_jtag_basic:ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_phy" with the following parameter:
+    Info (12134): Parameter "sld_auto_instance_index" = "YES"
+    Info (12134): Parameter "sld_instance_index" = "0"
+    Info (12134): Parameter "sld_ir_width" = "2"
+    Info (12134): Parameter "sld_mfg_id" = "70"
+    Info (12134): Parameter "sld_sim_action" = ""
+    Info (12134): Parameter "sld_sim_n_scan" = "0"
+    Info (12134): Parameter "sld_sim_total_length" = "0"
+    Info (12134): Parameter "sld_type_id" = "34"
+    Info (12134): Parameter "sld_version" = "3"
+Info (12128): Elaborating entity "sld_virtual_jtag_impl" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_nios2_oci:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci|ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_wrapper:the_ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_wrapper|sld_virtual_jtag_basic:ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_phy|sld_virtual_jtag_impl:sld_virtual_jtag_impl_inst"
+Info (12131): Elaborated megafunction instantiation "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_nios2_oci:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci|ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_wrapper:the_ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_wrapper|sld_virtual_jtag_basic:ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_phy|sld_virtual_jtag_impl:sld_virtual_jtag_impl_inst", which is child of megafunction instantiation "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_nios2:nios2|ExpandingUmweltSoCOrganization_nios2_nios2_oci:the_ExpandingUmweltSoCOrganization_nios2_nios2_oci|ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_wrapper:the_ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_wrapper|sld_virtual_jtag_basic:ExpandingUmweltSoCOrganization_nios2_jtag_debug_module_phy"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_jtag_uart_0" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_jtag_uart_0:jtag_uart_0"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_jtag_uart_0_scfifo_w" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_jtag_uart_0:jtag_uart_0|ExpandingUmweltSoCOrganization_jtag_uart_0_scfifo_w:the_ExpandingUmweltSoCOrganization_jtag_uart_0_scfifo_w"
+Info (12128): Elaborating entity "scfifo" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_jtag_uart_0:jtag_uart_0|ExpandingUmweltSoCOrganization_jtag_uart_0_scfifo_w:the_ExpandingUmweltSoCOrganization_jtag_uart_0_scfifo_w|scfifo:wfifo"
+Info (12130): Elaborated megafunction instantiation "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_jtag_uart_0:jtag_uart_0|ExpandingUmweltSoCOrganization_jtag_uart_0_scfifo_w:the_ExpandingUmweltSoCOrganization_jtag_uart_0_scfifo_w|scfifo:wfifo"
+Info (12133): Instantiated megafunction "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_jtag_uart_0:jtag_uart_0|ExpandingUmweltSoCOrganization_jtag_uart_0_scfifo_w:the_ExpandingUmweltSoCOrganization_jtag_uart_0_scfifo_w|scfifo:wfifo" with the following parameter:
+    Info (12134): Parameter "lpm_hint" = "RAM_BLOCK_TYPE=AUTO"
+    Info (12134): Parameter "lpm_numwords" = "64"
+    Info (12134): Parameter "lpm_showahead" = "OFF"
+    Info (12134): Parameter "lpm_type" = "scfifo"
+    Info (12134): Parameter "lpm_width" = "8"
+    Info (12134): Parameter "lpm_widthu" = "6"
+    Info (12134): Parameter "overflow_checking" = "OFF"
+    Info (12134): Parameter "underflow_checking" = "OFF"
+    Info (12134): Parameter "use_eab" = "ON"
+Info (12021): Found 1 design units, including 1 entities, in source file db/scfifo_1n21.tdf
+    Info (12023): Found entity 1: scfifo_1n21
+Info (12128): Elaborating entity "scfifo_1n21" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_jtag_uart_0:jtag_uart_0|ExpandingUmweltSoCOrganization_jtag_uart_0_scfifo_w:the_ExpandingUmweltSoCOrganization_jtag_uart_0_scfifo_w|scfifo:wfifo|scfifo_1n21:auto_generated"
+Info (12021): Found 1 design units, including 1 entities, in source file db/a_dpfifo_8t21.tdf
+    Info (12023): Found entity 1: a_dpfifo_8t21
+Info (12128): Elaborating entity "a_dpfifo_8t21" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_jtag_uart_0:jtag_uart_0|ExpandingUmweltSoCOrganization_jtag_uart_0_scfifo_w:the_ExpandingUmweltSoCOrganization_jtag_uart_0_scfifo_w|scfifo:wfifo|scfifo_1n21:auto_generated|a_dpfifo_8t21:dpfifo"
+Info (12021): Found 1 design units, including 1 entities, in source file db/a_fefifo_7cf.tdf
+    Info (12023): Found entity 1: a_fefifo_7cf
+Info (12128): Elaborating entity "a_fefifo_7cf" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_jtag_uart_0:jtag_uart_0|ExpandingUmweltSoCOrganization_jtag_uart_0_scfifo_w:the_ExpandingUmweltSoCOrganization_jtag_uart_0_scfifo_w|scfifo:wfifo|scfifo_1n21:auto_generated|a_dpfifo_8t21:dpfifo|a_fefifo_7cf:fifo_state"
+Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_rj7.tdf
+    Info (12023): Found entity 1: cntr_rj7
+Info (12128): Elaborating entity "cntr_rj7" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_jtag_uart_0:jtag_uart_0|ExpandingUmweltSoCOrganization_jtag_uart_0_scfifo_w:the_ExpandingUmweltSoCOrganization_jtag_uart_0_scfifo_w|scfifo:wfifo|scfifo_1n21:auto_generated|a_dpfifo_8t21:dpfifo|a_fefifo_7cf:fifo_state|cntr_rj7:count_usedw"
+Info (12021): Found 1 design units, including 1 entities, in source file db/dpram_5h21.tdf
+    Info (12023): Found entity 1: dpram_5h21
+Info (12128): Elaborating entity "dpram_5h21" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_jtag_uart_0:jtag_uart_0|ExpandingUmweltSoCOrganization_jtag_uart_0_scfifo_w:the_ExpandingUmweltSoCOrganization_jtag_uart_0_scfifo_w|scfifo:wfifo|scfifo_1n21:auto_generated|a_dpfifo_8t21:dpfifo|dpram_5h21:FIFOram"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_9tl1.tdf
+    Info (12023): Found entity 1: altsyncram_9tl1
+Info (12128): Elaborating entity "altsyncram_9tl1" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_jtag_uart_0:jtag_uart_0|ExpandingUmweltSoCOrganization_jtag_uart_0_scfifo_w:the_ExpandingUmweltSoCOrganization_jtag_uart_0_scfifo_w|scfifo:wfifo|scfifo_1n21:auto_generated|a_dpfifo_8t21:dpfifo|dpram_5h21:FIFOram|altsyncram_9tl1:altsyncram2"
+Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_fjb.tdf
+    Info (12023): Found entity 1: cntr_fjb
+Info (12128): Elaborating entity "cntr_fjb" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_jtag_uart_0:jtag_uart_0|ExpandingUmweltSoCOrganization_jtag_uart_0_scfifo_w:the_ExpandingUmweltSoCOrganization_jtag_uart_0_scfifo_w|scfifo:wfifo|scfifo_1n21:auto_generated|a_dpfifo_8t21:dpfifo|cntr_fjb:rd_ptr_count"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_jtag_uart_0_scfifo_r" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_jtag_uart_0:jtag_uart_0|ExpandingUmweltSoCOrganization_jtag_uart_0_scfifo_r:the_ExpandingUmweltSoCOrganization_jtag_uart_0_scfifo_r"
+Info (12128): Elaborating entity "alt_jtag_atlantic" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_jtag_uart_0:jtag_uart_0|alt_jtag_atlantic:ExpandingUmweltSoCOrganization_jtag_uart_0_alt_jtag_atlantic"
+Info (12130): Elaborated megafunction instantiation "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_jtag_uart_0:jtag_uart_0|alt_jtag_atlantic:ExpandingUmweltSoCOrganization_jtag_uart_0_alt_jtag_atlantic"
+Info (12133): Instantiated megafunction "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_jtag_uart_0:jtag_uart_0|alt_jtag_atlantic:ExpandingUmweltSoCOrganization_jtag_uart_0_alt_jtag_atlantic" with the following parameter:
+    Info (12134): Parameter "INSTANCE_ID" = "0"
+    Info (12134): Parameter "LOG2_RXFIFO_DEPTH" = "6"
+    Info (12134): Parameter "LOG2_TXFIFO_DEPTH" = "6"
+    Info (12134): Parameter "SLD_AUTO_INSTANCE_INDEX" = "YES"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_onchip_memory2_0" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_onchip_memory2_0:onchip_memory2_0"
+Info (12128): Elaborating entity "altsyncram" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_onchip_memory2_0:onchip_memory2_0|altsyncram:the_altsyncram"
+Info (12130): Elaborated megafunction instantiation "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_onchip_memory2_0:onchip_memory2_0|altsyncram:the_altsyncram"
+Info (12133): Instantiated megafunction "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_onchip_memory2_0:onchip_memory2_0|altsyncram:the_altsyncram" with the following parameter:
+    Info (12134): Parameter "byte_size" = "8"
+    Info (12134): Parameter "init_file" = "ExpandingUmweltSoCOrganization_onchip_memory2_0.hex"
+    Info (12134): Parameter "lpm_type" = "altsyncram"
+    Info (12134): Parameter "maximum_depth" = "1024"
+    Info (12134): Parameter "numwords_a" = "1024"
+    Info (12134): Parameter "operation_mode" = "SINGLE_PORT"
+    Info (12134): Parameter "outdata_reg_a" = "UNREGISTERED"
+    Info (12134): Parameter "ram_block_type" = "AUTO"
+    Info (12134): Parameter "read_during_write_mode_mixed_ports" = "DONT_CARE"
+    Info (12134): Parameter "width_a" = "32"
+    Info (12134): Parameter "width_byteena_a" = "4"
+    Info (12134): Parameter "widthad_a" = "10"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_4cf1.tdf
+    Info (12023): Found entity 1: altsyncram_4cf1
+Info (12128): Elaborating entity "altsyncram_4cf1" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_onchip_memory2_0:onchip_memory2_0|altsyncram:the_altsyncram|altsyncram_4cf1:auto_generated"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_sdram" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_sdram:sdram"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_sdram_input_efifo_module" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_sdram:sdram|ExpandingUmweltSoCOrganization_sdram_input_efifo_module:the_ExpandingUmweltSoCOrganization_sdram_input_efifo_module"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_esp8266" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_esp8266:esp8266"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_esp8266_tx" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_esp8266:esp8266|ExpandingUmweltSoCOrganization_esp8266_tx:the_ExpandingUmweltSoCOrganization_esp8266_tx"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_esp8266_rx" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_esp8266:esp8266|ExpandingUmweltSoCOrganization_esp8266_rx:the_ExpandingUmweltSoCOrganization_esp8266_rx"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_esp8266_rx_stimulus_source" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_esp8266:esp8266|ExpandingUmweltSoCOrganization_esp8266_rx:the_ExpandingUmweltSoCOrganization_esp8266_rx|ExpandingUmweltSoCOrganization_esp8266_rx_stimulus_source:the_ExpandingUmweltSoCOrganization_esp8266_rx_stimulus_source"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_esp8266_regs" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_esp8266:esp8266|ExpandingUmweltSoCOrganization_esp8266_regs:the_ExpandingUmweltSoCOrganization_esp8266_regs"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_esp8266_txfifo" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_esp8266:esp8266|ExpandingUmweltSoCOrganization_esp8266_regs:the_ExpandingUmweltSoCOrganization_esp8266_regs|ExpandingUmweltSoCOrganization_esp8266_txfifo:the_ExpandingUmweltSoCOrganization_esp8266_txfifo"
+Info (12128): Elaborating entity "scfifo" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_esp8266:esp8266|ExpandingUmweltSoCOrganization_esp8266_regs:the_ExpandingUmweltSoCOrganization_esp8266_regs|ExpandingUmweltSoCOrganization_esp8266_txfifo:the_ExpandingUmweltSoCOrganization_esp8266_txfifo|scfifo:txfifo"
+Info (12130): Elaborated megafunction instantiation "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_esp8266:esp8266|ExpandingUmweltSoCOrganization_esp8266_regs:the_ExpandingUmweltSoCOrganization_esp8266_regs|ExpandingUmweltSoCOrganization_esp8266_txfifo:the_ExpandingUmweltSoCOrganization_esp8266_txfifo|scfifo:txfifo"
+Info (12133): Instantiated megafunction "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_esp8266:esp8266|ExpandingUmweltSoCOrganization_esp8266_regs:the_ExpandingUmweltSoCOrganization_esp8266_regs|ExpandingUmweltSoCOrganization_esp8266_txfifo:the_ExpandingUmweltSoCOrganization_esp8266_txfifo|scfifo:txfifo" with the following parameter:
+    Info (12134): Parameter "lpm_numwords" = "1024"
+    Info (12134): Parameter "lpm_showahead" = "ON"
+    Info (12134): Parameter "lpm_type" = "scfifo"
+    Info (12134): Parameter "lpm_width" = "8"
+    Info (12134): Parameter "lpm_widthu" = "10"
+    Info (12134): Parameter "overflow_checking" = "ON"
+    Info (12134): Parameter "underflow_checking" = "ON"
+    Info (12134): Parameter "use_eab" = "ON"
+Info (12021): Found 1 design units, including 1 entities, in source file db/scfifo_vjt.tdf
+    Info (12023): Found entity 1: scfifo_vjt
+Info (12128): Elaborating entity "scfifo_vjt" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_esp8266:esp8266|ExpandingUmweltSoCOrganization_esp8266_regs:the_ExpandingUmweltSoCOrganization_esp8266_regs|ExpandingUmweltSoCOrganization_esp8266_txfifo:the_ExpandingUmweltSoCOrganization_esp8266_txfifo|scfifo:txfifo|scfifo_vjt:auto_generated"
+Info (12021): Found 1 design units, including 1 entities, in source file db/a_dpfifo_ibt.tdf
+    Info (12023): Found entity 1: a_dpfifo_ibt
+Info (12128): Elaborating entity "a_dpfifo_ibt" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_esp8266:esp8266|ExpandingUmweltSoCOrganization_esp8266_regs:the_ExpandingUmweltSoCOrganization_esp8266_regs|ExpandingUmweltSoCOrganization_esp8266_txfifo:the_ExpandingUmweltSoCOrganization_esp8266_txfifo|scfifo:txfifo|scfifo_vjt:auto_generated|a_dpfifo_ibt:dpfifo"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_df81.tdf
+    Info (12023): Found entity 1: altsyncram_df81
+Info (12128): Elaborating entity "altsyncram_df81" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_esp8266:esp8266|ExpandingUmweltSoCOrganization_esp8266_regs:the_ExpandingUmweltSoCOrganization_esp8266_regs|ExpandingUmweltSoCOrganization_esp8266_txfifo:the_ExpandingUmweltSoCOrganization_esp8266_txfifo|scfifo:txfifo|scfifo_vjt:auto_generated|a_dpfifo_ibt:dpfifo|altsyncram_df81:FIFOram"
+Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr_cp8.tdf
+    Info (12023): Found entity 1: cmpr_cp8
+Info (12128): Elaborating entity "cmpr_cp8" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_esp8266:esp8266|ExpandingUmweltSoCOrganization_esp8266_regs:the_ExpandingUmweltSoCOrganization_esp8266_regs|ExpandingUmweltSoCOrganization_esp8266_txfifo:the_ExpandingUmweltSoCOrganization_esp8266_txfifo|scfifo:txfifo|scfifo_vjt:auto_generated|a_dpfifo_ibt:dpfifo|cmpr_cp8:almost_full_comparer"
+Info (12128): Elaborating entity "cmpr_cp8" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_esp8266:esp8266|ExpandingUmweltSoCOrganization_esp8266_regs:the_ExpandingUmweltSoCOrganization_esp8266_regs|ExpandingUmweltSoCOrganization_esp8266_txfifo:the_ExpandingUmweltSoCOrganization_esp8266_txfifo|scfifo:txfifo|scfifo_vjt:auto_generated|a_dpfifo_ibt:dpfifo|cmpr_cp8:three_comparison"
+Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_g5b.tdf
+    Info (12023): Found entity 1: cntr_g5b
+Info (12128): Elaborating entity "cntr_g5b" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_esp8266:esp8266|ExpandingUmweltSoCOrganization_esp8266_regs:the_ExpandingUmweltSoCOrganization_esp8266_regs|ExpandingUmweltSoCOrganization_esp8266_txfifo:the_ExpandingUmweltSoCOrganization_esp8266_txfifo|scfifo:txfifo|scfifo_vjt:auto_generated|a_dpfifo_ibt:dpfifo|cntr_g5b:rd_ptr_msb"
+Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_477.tdf
+    Info (12023): Found entity 1: cntr_477
+Info (12128): Elaborating entity "cntr_477" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_esp8266:esp8266|ExpandingUmweltSoCOrganization_esp8266_regs:the_ExpandingUmweltSoCOrganization_esp8266_regs|ExpandingUmweltSoCOrganization_esp8266_txfifo:the_ExpandingUmweltSoCOrganization_esp8266_txfifo|scfifo:txfifo|scfifo_vjt:auto_generated|a_dpfifo_ibt:dpfifo|cntr_477:usedw_counter"
+Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_o6b.tdf
+    Info (12023): Found entity 1: cntr_o6b
+Info (12128): Elaborating entity "cntr_o6b" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_esp8266:esp8266|ExpandingUmweltSoCOrganization_esp8266_regs:the_ExpandingUmweltSoCOrganization_esp8266_regs|ExpandingUmweltSoCOrganization_esp8266_txfifo:the_ExpandingUmweltSoCOrganization_esp8266_txfifo|scfifo:txfifo|scfifo_vjt:auto_generated|a_dpfifo_ibt:dpfifo|cntr_o6b:wr_ptr"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_esp8266_rxfifo" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_esp8266:esp8266|ExpandingUmweltSoCOrganization_esp8266_regs:the_ExpandingUmweltSoCOrganization_esp8266_regs|ExpandingUmweltSoCOrganization_esp8266_rxfifo:the_ExpandingUmweltSoCOrganization_esp8266_rxfifo"
+Info (12128): Elaborating entity "matriz_avalon_interface" for hierarchy "ExpandingUmweltSoCOrganization:soc|matriz_avalon_interface:matriz_avalon_interface_0"
+Warning (10036): Verilog HDL or VHDL warning at matriz_avalon_interface.vhd(52): object "interrupt" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at matriz_avalon_interface.vhd(52): object "bistOut" assigned a value but never read
+Info (12128): Elaborating entity "expandingumweltsocorganization_nios2_data_master_translator" for hierarchy "ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_nios2_data_master_translator:nios2_data_master_translator"
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_nios2_data_master_translator.vhd(63): used implicit default value for signal "av_readdatavalid" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_nios2_data_master_translator.vhd(64): used implicit default value for signal "av_response" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_nios2_data_master_translator.vhd(66): used implicit default value for signal "av_writeresponsevalid" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_nios2_data_master_translator.vhd(67): used implicit default value for signal "uav_clken" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_nios2_data_master_translator.vhd(69): used implicit default value for signal "uav_writeresponserequest" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Info (12128): Elaborating entity "altera_merlin_master_translator" for hierarchy "ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_nios2_data_master_translator:nios2_data_master_translator|altera_merlin_master_translator:nios2_data_master_translator"
+Info (12128): Elaborating entity "expandingumweltsocorganization_nios2_instruction_master_translator" for hierarchy "ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_nios2_instruction_master_translator:nios2_instruction_master_translator"
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_nios2_instruction_master_translator.vhd(61): used implicit default value for signal "av_readdatavalid" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_nios2_instruction_master_translator.vhd(62): used implicit default value for signal "av_response" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_nios2_instruction_master_translator.vhd(66): used implicit default value for signal "av_writeresponsevalid" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_nios2_instruction_master_translator.vhd(67): used implicit default value for signal "uav_clken" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_nios2_instruction_master_translator.vhd(69): used implicit default value for signal "uav_writeresponserequest" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Info (12128): Elaborating entity "altera_merlin_master_translator" for hierarchy "ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_nios2_instruction_master_translator:nios2_instruction_master_translator|altera_merlin_master_translator:nios2_instruction_master_translator"
+Info (12128): Elaborating entity "expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator" for hierarchy "ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator:jtag_uart_0_avalon_jtag_slave_translator"
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator.vhd(58): used implicit default value for signal "av_beginbursttransfer" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator.vhd(59): used implicit default value for signal "av_begintransfer" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator.vhd(60): used implicit default value for signal "av_burstcount" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator.vhd(61): used implicit default value for signal "av_byteenable" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator.vhd(62): used implicit default value for signal "av_clken" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator.vhd(63): used implicit default value for signal "av_debugaccess" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator.vhd(64): used implicit default value for signal "av_lock" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator.vhd(65): used implicit default value for signal "av_outputenable" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator.vhd(68): used implicit default value for signal "av_writebyteenable" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator.vhd(69): used implicit default value for signal "av_writeresponserequest" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator.vhd(72): used implicit default value for signal "uav_response" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator.vhd(74): used implicit default value for signal "uav_writeresponsevalid" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Info (12128): Elaborating entity "altera_merlin_slave_translator" for hierarchy "ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator:jtag_uart_0_avalon_jtag_slave_translator|altera_merlin_slave_translator:jtag_uart_0_avalon_jtag_slave_translator"
+Info (12128): Elaborating entity "expandingumweltsocorganization_onchip_memory2_0_s1_translator" for hierarchy "ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_onchip_memory2_0_s1_translator:onchip_memory2_0_s1_translator"
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_onchip_memory2_0_s1_translator.vhd(58): used implicit default value for signal "av_beginbursttransfer" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_onchip_memory2_0_s1_translator.vhd(59): used implicit default value for signal "av_begintransfer" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_onchip_memory2_0_s1_translator.vhd(60): used implicit default value for signal "av_burstcount" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_onchip_memory2_0_s1_translator.vhd(61): used implicit default value for signal "av_debugaccess" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_onchip_memory2_0_s1_translator.vhd(62): used implicit default value for signal "av_lock" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_onchip_memory2_0_s1_translator.vhd(63): used implicit default value for signal "av_outputenable" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_onchip_memory2_0_s1_translator.vhd(64): used implicit default value for signal "av_read" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_onchip_memory2_0_s1_translator.vhd(68): used implicit default value for signal "av_writebyteenable" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_onchip_memory2_0_s1_translator.vhd(69): used implicit default value for signal "av_writeresponserequest" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_onchip_memory2_0_s1_translator.vhd(72): used implicit default value for signal "uav_response" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_onchip_memory2_0_s1_translator.vhd(74): used implicit default value for signal "uav_writeresponsevalid" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Info (12128): Elaborating entity "altera_merlin_slave_translator" for hierarchy "ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_onchip_memory2_0_s1_translator:onchip_memory2_0_s1_translator|altera_merlin_slave_translator:onchip_memory2_0_s1_translator"
+Info (12128): Elaborating entity "expandingumweltsocorganization_sdram_s1_translator" for hierarchy "ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_sdram_s1_translator:sdram_s1_translator"
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_sdram_s1_translator.vhd(60): used implicit default value for signal "av_beginbursttransfer" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_sdram_s1_translator.vhd(61): used implicit default value for signal "av_begintransfer" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_sdram_s1_translator.vhd(62): used implicit default value for signal "av_burstcount" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_sdram_s1_translator.vhd(63): used implicit default value for signal "av_clken" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_sdram_s1_translator.vhd(64): used implicit default value for signal "av_debugaccess" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_sdram_s1_translator.vhd(65): used implicit default value for signal "av_lock" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_sdram_s1_translator.vhd(66): used implicit default value for signal "av_outputenable" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_sdram_s1_translator.vhd(68): used implicit default value for signal "av_writebyteenable" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_sdram_s1_translator.vhd(69): used implicit default value for signal "av_writeresponserequest" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_sdram_s1_translator.vhd(72): used implicit default value for signal "uav_response" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_sdram_s1_translator.vhd(74): used implicit default value for signal "uav_writeresponsevalid" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Info (12128): Elaborating entity "altera_merlin_slave_translator" for hierarchy "ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_sdram_s1_translator:sdram_s1_translator|altera_merlin_slave_translator:sdram_s1_translator"
+Info (12128): Elaborating entity "expandingumweltsocorganization_esp8266_s1_translator" for hierarchy "ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_esp8266_s1_translator:esp8266_s1_translator"
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_esp8266_s1_translator.vhd(58): used implicit default value for signal "av_beginbursttransfer" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_esp8266_s1_translator.vhd(59): used implicit default value for signal "av_burstcount" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_esp8266_s1_translator.vhd(60): used implicit default value for signal "av_byteenable" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_esp8266_s1_translator.vhd(61): used implicit default value for signal "av_clken" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_esp8266_s1_translator.vhd(62): used implicit default value for signal "av_debugaccess" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_esp8266_s1_translator.vhd(63): used implicit default value for signal "av_lock" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_esp8266_s1_translator.vhd(64): used implicit default value for signal "av_outputenable" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_esp8266_s1_translator.vhd(68): used implicit default value for signal "av_writebyteenable" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_esp8266_s1_translator.vhd(69): used implicit default value for signal "av_writeresponserequest" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_esp8266_s1_translator.vhd(72): used implicit default value for signal "uav_response" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_esp8266_s1_translator.vhd(74): used implicit default value for signal "uav_writeresponsevalid" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Info (12128): Elaborating entity "altera_merlin_slave_translator" for hierarchy "ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_esp8266_s1_translator:esp8266_s1_translator|altera_merlin_slave_translator:esp8266_s1_translator"
+Info (12128): Elaborating entity "expandingumweltsocorganization_nios2_jtag_debug_module_translator" for hierarchy "ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_nios2_jtag_debug_module_translator:nios2_jtag_debug_module_translator"
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_nios2_jtag_debug_module_translator.vhd(59): used implicit default value for signal "av_beginbursttransfer" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_nios2_jtag_debug_module_translator.vhd(60): used implicit default value for signal "av_begintransfer" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_nios2_jtag_debug_module_translator.vhd(61): used implicit default value for signal "av_burstcount" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_nios2_jtag_debug_module_translator.vhd(62): used implicit default value for signal "av_chipselect" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_nios2_jtag_debug_module_translator.vhd(63): used implicit default value for signal "av_clken" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_nios2_jtag_debug_module_translator.vhd(64): used implicit default value for signal "av_lock" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_nios2_jtag_debug_module_translator.vhd(65): used implicit default value for signal "av_outputenable" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_nios2_jtag_debug_module_translator.vhd(68): used implicit default value for signal "av_writebyteenable" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_nios2_jtag_debug_module_translator.vhd(69): used implicit default value for signal "av_writeresponserequest" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_nios2_jtag_debug_module_translator.vhd(72): used implicit default value for signal "uav_response" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_nios2_jtag_debug_module_translator.vhd(74): used implicit default value for signal "uav_writeresponsevalid" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Info (12128): Elaborating entity "altera_merlin_slave_translator" for hierarchy "ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_nios2_jtag_debug_module_translator:nios2_jtag_debug_module_translator|altera_merlin_slave_translator:nios2_jtag_debug_module_translator"
+Info (12128): Elaborating entity "expandingumweltsocorganization_matriz_avalon_interface_0_aslave_translator" for hierarchy "ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_matriz_avalon_interface_0_aslave_translator:matriz_avalon_interface_0_aslave_translator"
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_matriz_avalon_interface_0_aslave_translator.vhd(56): used implicit default value for signal "av_beginbursttransfer" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_matriz_avalon_interface_0_aslave_translator.vhd(57): used implicit default value for signal "av_begintransfer" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_matriz_avalon_interface_0_aslave_translator.vhd(58): used implicit default value for signal "av_burstcount" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_matriz_avalon_interface_0_aslave_translator.vhd(59): used implicit default value for signal "av_byteenable" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_matriz_avalon_interface_0_aslave_translator.vhd(60): used implicit default value for signal "av_chipselect" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_matriz_avalon_interface_0_aslave_translator.vhd(61): used implicit default value for signal "av_clken" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_matriz_avalon_interface_0_aslave_translator.vhd(62): used implicit default value for signal "av_debugaccess" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_matriz_avalon_interface_0_aslave_translator.vhd(63): used implicit default value for signal "av_lock" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_matriz_avalon_interface_0_aslave_translator.vhd(64): used implicit default value for signal "av_outputenable" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_matriz_avalon_interface_0_aslave_translator.vhd(68): used implicit default value for signal "av_writebyteenable" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_matriz_avalon_interface_0_aslave_translator.vhd(69): used implicit default value for signal "av_writeresponserequest" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_matriz_avalon_interface_0_aslave_translator.vhd(72): used implicit default value for signal "uav_response" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_matriz_avalon_interface_0_aslave_translator.vhd(74): used implicit default value for signal "uav_writeresponsevalid" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Info (12128): Elaborating entity "altera_merlin_slave_translator" for hierarchy "ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_matriz_avalon_interface_0_aslave_translator:matriz_avalon_interface_0_aslave_translator|altera_merlin_slave_translator:matriz_avalon_interface_0_aslave_translator"
+Info (12128): Elaborating entity "altera_merlin_master_agent" for hierarchy "ExpandingUmweltSoCOrganization:soc|altera_merlin_master_agent:nios2_data_master_translator_avalon_universal_master_0_agent"
+Info (12128): Elaborating entity "altera_merlin_master_agent" for hierarchy "ExpandingUmweltSoCOrganization:soc|altera_merlin_master_agent:nios2_instruction_master_translator_avalon_universal_master_0_agent"
+Info (12128): Elaborating entity "expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent" for hierarchy "ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent:jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent"
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent.vhd(88): used implicit default value for signal "m0_writeresponserequest" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Info (12128): Elaborating entity "altera_merlin_slave_agent" for hierarchy "ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent:jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent|altera_merlin_slave_agent:jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent"
+Info (12128): Elaborating entity "altera_merlin_burst_uncompressor" for hierarchy "ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent:jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent|altera_merlin_slave_agent:jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent|altera_merlin_burst_uncompressor:uncompressor"
+Info (12128): Elaborating entity "expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo" for hierarchy "ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo:jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo"
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo.vhd(37): used implicit default value for signal "almost_empty_data" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo.vhd(38): used implicit default value for signal "almost_full_data" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo.vhd(41): used implicit default value for signal "csr_readdata" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo.vhd(47): used implicit default value for signal "out_channel" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo.vhd(48): used implicit default value for signal "out_empty" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo.vhd(49): used implicit default value for signal "out_error" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Info (12128): Elaborating entity "altera_avalon_sc_fifo" for hierarchy "ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo:jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo|altera_avalon_sc_fifo:jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo"
+Info (12128): Elaborating entity "expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent" for hierarchy "ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent:sdram_s1_translator_avalon_universal_slave_0_agent"
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent.vhd(88): used implicit default value for signal "m0_writeresponserequest" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Info (12128): Elaborating entity "altera_merlin_slave_agent" for hierarchy "ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent:sdram_s1_translator_avalon_universal_slave_0_agent|altera_merlin_slave_agent:sdram_s1_translator_avalon_universal_slave_0_agent"
+Info (12128): Elaborating entity "altera_merlin_burst_uncompressor" for hierarchy "ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent:sdram_s1_translator_avalon_universal_slave_0_agent|altera_merlin_slave_agent:sdram_s1_translator_avalon_universal_slave_0_agent|altera_merlin_burst_uncompressor:uncompressor"
+Info (12128): Elaborating entity "expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent_rsp_fifo" for hierarchy "ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent_rsp_fifo:sdram_s1_translator_avalon_universal_slave_0_agent_rsp_fifo"
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent_rsp_fifo.vhd(37): used implicit default value for signal "almost_empty_data" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent_rsp_fifo.vhd(38): used implicit default value for signal "almost_full_data" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent_rsp_fifo.vhd(41): used implicit default value for signal "csr_readdata" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent_rsp_fifo.vhd(47): used implicit default value for signal "out_channel" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent_rsp_fifo.vhd(48): used implicit default value for signal "out_empty" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent_rsp_fifo.vhd(49): used implicit default value for signal "out_error" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Info (12128): Elaborating entity "altera_avalon_sc_fifo" for hierarchy "ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent_rsp_fifo:sdram_s1_translator_avalon_universal_slave_0_agent_rsp_fifo|altera_avalon_sc_fifo:sdram_s1_translator_avalon_universal_slave_0_agent_rsp_fifo"
+Info (12128): Elaborating entity "expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent_rdata_fifo" for hierarchy "ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent_rdata_fifo:sdram_s1_translator_avalon_universal_slave_0_agent_rdata_fifo"
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent_rdata_fifo.vhd(33): used implicit default value for signal "almost_empty_data" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent_rdata_fifo.vhd(34): used implicit default value for signal "almost_full_data" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent_rdata_fifo.vhd(37): used implicit default value for signal "csr_readdata" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent_rdata_fifo.vhd(45): used implicit default value for signal "out_channel" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent_rdata_fifo.vhd(46): used implicit default value for signal "out_empty" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent_rdata_fifo.vhd(47): used implicit default value for signal "out_endofpacket" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent_rdata_fifo.vhd(48): used implicit default value for signal "out_error" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent_rdata_fifo.vhd(49): used implicit default value for signal "out_startofpacket" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Info (12128): Elaborating entity "altera_avalon_sc_fifo" for hierarchy "ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_sdram_s1_translator_avalon_universal_slave_0_agent_rdata_fifo:sdram_s1_translator_avalon_universal_slave_0_agent_rdata_fifo|altera_avalon_sc_fifo:sdram_s1_translator_avalon_universal_slave_0_agent_rdata_fifo"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_addr_router" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_addr_router:addr_router"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_addr_router_default_decode" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_addr_router:addr_router|ExpandingUmweltSoCOrganization_addr_router_default_decode:the_default_decode"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_addr_router_001" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_addr_router_001:addr_router_001"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_addr_router_001_default_decode" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_addr_router_001:addr_router_001|ExpandingUmweltSoCOrganization_addr_router_001_default_decode:the_default_decode"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_id_router" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_id_router:id_router"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_id_router_default_decode" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_id_router:id_router|ExpandingUmweltSoCOrganization_id_router_default_decode:the_default_decode"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_id_router_001" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_id_router_001:id_router_001"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_id_router_001_default_decode" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_id_router_001:id_router_001|ExpandingUmweltSoCOrganization_id_router_001_default_decode:the_default_decode"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_id_router_002" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_id_router_002:id_router_002"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_id_router_002_default_decode" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_id_router_002:id_router_002|ExpandingUmweltSoCOrganization_id_router_002_default_decode:the_default_decode"
+Info (12128): Elaborating entity "altera_merlin_burst_adapter" for hierarchy "ExpandingUmweltSoCOrganization:soc|altera_merlin_burst_adapter:burst_adapter"
+Info (12128): Elaborating entity "altera_merlin_burst_adapter_uncompressed_only" for hierarchy "ExpandingUmweltSoCOrganization:soc|altera_merlin_burst_adapter:burst_adapter|altera_merlin_burst_adapter_uncompressed_only:altera_merlin_burst_adapter_uncompressed_only.the_ba"
+Info (12128): Elaborating entity "altera_reset_controller" for hierarchy "ExpandingUmweltSoCOrganization:soc|altera_reset_controller:rst_controller"
+Info (12128): Elaborating entity "altera_reset_synchronizer" for hierarchy "ExpandingUmweltSoCOrganization:soc|altera_reset_controller:rst_controller|altera_reset_synchronizer:alt_rst_sync_uq1"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_cmd_xbar_demux" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_cmd_xbar_demux:cmd_xbar_demux"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_cmd_xbar_demux_001" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_cmd_xbar_demux_001:cmd_xbar_demux_001"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_cmd_xbar_mux_001" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_cmd_xbar_mux_001:cmd_xbar_mux_001"
+Info (12128): Elaborating entity "altera_merlin_arbitrator" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_cmd_xbar_mux_001:cmd_xbar_mux_001|altera_merlin_arbitrator:arb"
+Info (12128): Elaborating entity "altera_merlin_arb_adder" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_cmd_xbar_mux_001:cmd_xbar_mux_001|altera_merlin_arbitrator:arb|altera_merlin_arb_adder:adder"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_rsp_xbar_demux" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_rsp_xbar_demux:rsp_xbar_demux"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_rsp_xbar_demux_001" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_rsp_xbar_demux_001:rsp_xbar_demux_001"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_rsp_xbar_mux" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_rsp_xbar_mux:rsp_xbar_mux"
+Info (12128): Elaborating entity "altera_merlin_arbitrator" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_rsp_xbar_mux:rsp_xbar_mux|altera_merlin_arbitrator:arb"
+Info (12128): Elaborating entity "altera_merlin_arb_adder" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_rsp_xbar_mux:rsp_xbar_mux|altera_merlin_arbitrator:arb|altera_merlin_arb_adder:adder"
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_rsp_xbar_mux_001" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_rsp_xbar_mux_001:rsp_xbar_mux_001"
+Info (12128): Elaborating entity "altera_merlin_arbitrator" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_rsp_xbar_mux_001:rsp_xbar_mux_001|altera_merlin_arbitrator:arb"
+Info (12128): Elaborating entity "altera_merlin_arb_adder" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_rsp_xbar_mux_001:rsp_xbar_mux_001|altera_merlin_arbitrator:arb|altera_merlin_arb_adder:adder"
+Info (12128): Elaborating entity "expandingumweltsocorganization_width_adapter" for hierarchy "ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_width_adapter:width_adapter"
+Info (12128): Elaborating entity "altera_merlin_width_adapter" for hierarchy "ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_width_adapter:width_adapter|altera_merlin_width_adapter:width_adapter"
+Info (12128): Elaborating entity "expandingumweltsocorganization_width_adapter_001" for hierarchy "ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_width_adapter_001:width_adapter_001"
+Info (12128): Elaborating entity "altera_merlin_width_adapter" for hierarchy "ExpandingUmweltSoCOrganization:soc|expandingumweltsocorganization_width_adapter_001:width_adapter_001|altera_merlin_width_adapter:width_adapter_001"
+Warning (10858): Verilog HDL warning at altera_merlin_width_adapter.sv(259): object in_burstwrap_field used but never assigned
+Warning (10036): Verilog HDL or VHDL warning at altera_merlin_width_adapter.sv(717): object "aligned_addr" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at altera_merlin_width_adapter.sv(718): object "aligned_byte_cnt" assigned a value but never read
+Warning (10030): Net "in_burstwrap_field" at altera_merlin_width_adapter.sv(259) has no driver or initial value, using a default initial value '0'
+Info (12128): Elaborating entity "ExpandingUmweltSoCOrganization_irq_mapper" for hierarchy "ExpandingUmweltSoCOrganization:soc|ExpandingUmweltSoCOrganization_irq_mapper:irq_mapper"
+Error (12006): Node instance "matriz_inst" instantiates undefined entity "MotorMatrixControl" File: /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QSysSoCOrganization/ExpandingUmweltSoCOrganization/synthesis/submodules/matriz_avalon_interface.vhd Line: 61
+Info (144001): Generated suppressed messages file /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QuartusSoCProject/output_files/ExpandingUmweltHardware.map.smsg
+Error: Quartus II 64-Bit Analysis & Synthesis was unsuccessful. 1 error, 117 warnings
+    Error: Peak virtual memory: 714 megabytes
+    Error: Processing ended: Fri Oct 21 19:38:18 2016
+    Error: Elapsed time: 00:00:05
+    Error: Total CPU time (on all processors): 00:00:05
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in /home/cancian/University/Research_Projects/2016/Probolsas/repository/probolsas2016_substituicaosensorial/development/hardware/QuartusSoCProject/output_files/ExpandingUmweltHardware.map.smsg.
+
+
