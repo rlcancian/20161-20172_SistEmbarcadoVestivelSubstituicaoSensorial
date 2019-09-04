@@ -1,0 +1,3709 @@
++--------------------------------------------------------------------------------+
+; Legal Partition Candidates                                                     ;
++--------------------------------------------------------------------------------+
+Hierarchy         : system|irq_mapper
+Input             : 4
+Constant Input    : 30
+Unused Input      : 2
+Floating Input    : 30
+Output            : 32
+Constant Output   : 30
+Unused Output     : 30
+Floating Output   : 30
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|width_adapter_001|uncompressor
+Input             : 41
+Constant Input    : 4
+Unused Input      : 0
+Floating Input    : 4
+Output            : 32
+Constant Output   : 4
+Unused Output     : 4
+Floating Output   : 4
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|width_adapter_001
+Input             : 95
+Constant Input    : 3
+Unused Input      : 0
+Floating Input    : 3
+Output            : 108
+Constant Output   : 3
+Unused Output     : 3
+Floating Output   : 3
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|width_adapter
+Input             : 113
+Constant Input    : 3
+Unused Input      : 0
+Floating Input    : 3
+Output            : 90
+Constant Output   : 3
+Unused Output     : 3
+Floating Output   : 3
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|rsp_xbar_mux_001|arb|adder
+Input             : 24
+Constant Input    : 12
+Unused Input      : 0
+Floating Input    : 12
+Output            : 12
+Constant Output   : 12
+Unused Output     : 12
+Floating Output   : 12
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|rsp_xbar_mux_001|arb
+Input             : 10
+Constant Input    : 0
+Unused Input      : 4
+Floating Input    : 0
+Output            : 6
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|rsp_xbar_mux_001
+Input             : 645
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 113
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|rsp_xbar_mux|arb|adder
+Input             : 20
+Constant Input    : 10
+Unused Input      : 0
+Floating Input    : 10
+Output            : 10
+Constant Output   : 10
+Unused Output     : 10
+Floating Output   : 10
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|rsp_xbar_mux|arb
+Input             : 9
+Constant Input    : 0
+Unused Input      : 4
+Floating Input    : 0
+Output            : 5
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|rsp_xbar_mux
+Input             : 538
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 112
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|rsp_xbar_demux_005
+Input             : 110
+Constant Input    : 1
+Unused Input      : 2
+Floating Input    : 1
+Output            : 108
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|rsp_xbar_demux_004
+Input             : 111
+Constant Input    : 4
+Unused Input      : 2
+Floating Input    : 4
+Output            : 215
+Constant Output   : 4
+Unused Output     : 4
+Floating Output   : 4
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|rsp_xbar_demux_003
+Input             : 111
+Constant Input    : 4
+Unused Input      : 2
+Floating Input    : 4
+Output            : 215
+Constant Output   : 4
+Unused Output     : 4
+Floating Output   : 4
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|rsp_xbar_demux_002
+Input             : 111
+Constant Input    : 4
+Unused Input      : 2
+Floating Input    : 4
+Output            : 215
+Constant Output   : 4
+Unused Output     : 4
+Floating Output   : 4
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|rsp_xbar_demux_001
+Input             : 111
+Constant Input    : 4
+Unused Input      : 2
+Floating Input    : 4
+Output            : 215
+Constant Output   : 4
+Unused Output     : 4
+Floating Output   : 4
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|rsp_xbar_demux
+Input             : 111
+Constant Input    : 4
+Unused Input      : 2
+Floating Input    : 4
+Output            : 215
+Constant Output   : 4
+Unused Output     : 4
+Floating Output   : 4
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|cmd_xbar_mux_004|arb|adder
+Input             : 8
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 4
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|cmd_xbar_mux_004|arb
+Input             : 6
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 2
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|cmd_xbar_mux_004
+Input             : 217
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 109
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|cmd_xbar_mux_003|arb|adder
+Input             : 8
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 4
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|cmd_xbar_mux_003|arb
+Input             : 6
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 2
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|cmd_xbar_mux_003
+Input             : 217
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 109
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|cmd_xbar_mux_002|arb|adder
+Input             : 8
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 4
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|cmd_xbar_mux_002|arb
+Input             : 6
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 2
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|cmd_xbar_mux_002
+Input             : 217
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 109
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|cmd_xbar_mux_001|arb|adder
+Input             : 8
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 4
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|cmd_xbar_mux_001|arb
+Input             : 6
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 2
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|cmd_xbar_mux_001
+Input             : 217
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 109
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|cmd_xbar_mux|arb|adder
+Input             : 8
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 4
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|cmd_xbar_mux|arb
+Input             : 6
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 2
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|cmd_xbar_mux
+Input             : 217
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 109
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|cmd_xbar_demux_001
+Input             : 115
+Constant Input    : 36
+Unused Input      : 2
+Floating Input    : 36
+Output            : 643
+Constant Output   : 36
+Unused Output     : 36
+Floating Output   : 36
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|cmd_xbar_demux
+Input             : 114
+Constant Input    : 25
+Unused Input      : 2
+Floating Input    : 25
+Output            : 536
+Constant Output   : 25
+Unused Output     : 25
+Floating Output   : 25
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|rst_controller_001|alt_rst_sync_uq1
+Input             : 2
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|rst_controller_001
+Input             : 17
+Constant Input    : 15
+Unused Input      : 0
+Floating Input    : 15
+Output            : 1
+Constant Output   : 15
+Unused Output     : 15
+Floating Output   : 15
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|rst_controller|alt_rst_sync_uq1
+Input             : 2
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|rst_controller
+Input             : 17
+Constant Input    : 14
+Unused Input      : 0
+Floating Input    : 14
+Output            : 2
+Constant Output   : 14
+Unused Output     : 14
+Floating Output   : 14
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|burst_adapter|altera_merlin_burst_adapter_uncompressed_only.the_ba
+Input             : 92
+Constant Input    : 3
+Unused Input      : 5
+Floating Input    : 3
+Output            : 90
+Constant Output   : 3
+Unused Output     : 3
+Floating Output   : 3
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|burst_adapter
+Input             : 92
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 90
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|id_router_005|the_default_decode
+Input             : 0
+Constant Input    : 9
+Unused Input      : 0
+Floating Input    : 9
+Output            : 9
+Constant Output   : 9
+Unused Output     : 9
+Floating Output   : 9
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|id_router_005
+Input             : 104
+Constant Input    : 0
+Unused Input      : 2
+Floating Input    : 0
+Output            : 108
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|id_router_004|the_default_decode
+Input             : 0
+Constant Input    : 9
+Unused Input      : 0
+Floating Input    : 9
+Output            : 9
+Constant Output   : 9
+Unused Output     : 9
+Floating Output   : 9
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|id_router_004
+Input             : 104
+Constant Input    : 0
+Unused Input      : 2
+Floating Input    : 0
+Output            : 108
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|id_router_003|the_default_decode
+Input             : 0
+Constant Input    : 9
+Unused Input      : 0
+Floating Input    : 9
+Output            : 9
+Constant Output   : 9
+Unused Output     : 9
+Floating Output   : 9
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|id_router_003
+Input             : 104
+Constant Input    : 0
+Unused Input      : 2
+Floating Input    : 0
+Output            : 108
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|id_router_002|the_default_decode
+Input             : 0
+Constant Input    : 9
+Unused Input      : 0
+Floating Input    : 9
+Output            : 9
+Constant Output   : 9
+Unused Output     : 9
+Floating Output   : 9
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|id_router_002
+Input             : 86
+Constant Input    : 0
+Unused Input      : 2
+Floating Input    : 0
+Output            : 90
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|id_router_001|the_default_decode
+Input             : 0
+Constant Input    : 9
+Unused Input      : 0
+Floating Input    : 9
+Output            : 9
+Constant Output   : 9
+Unused Output     : 9
+Floating Output   : 9
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|id_router_001
+Input             : 104
+Constant Input    : 0
+Unused Input      : 2
+Floating Input    : 0
+Output            : 108
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|id_router|the_default_decode
+Input             : 0
+Constant Input    : 9
+Unused Input      : 0
+Floating Input    : 9
+Output            : 9
+Constant Output   : 9
+Unused Output     : 9
+Floating Output   : 9
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|id_router
+Input             : 104
+Constant Input    : 0
+Unused Input      : 2
+Floating Input    : 0
+Output            : 108
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|addr_router_001|the_default_decode
+Input             : 0
+Constant Input    : 9
+Unused Input      : 0
+Floating Input    : 9
+Output            : 9
+Constant Output   : 9
+Unused Output     : 9
+Floating Output   : 9
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|addr_router_001
+Input             : 104
+Constant Input    : 0
+Unused Input      : 5
+Floating Input    : 0
+Output            : 108
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|addr_router|the_default_decode
+Input             : 0
+Constant Input    : 9
+Unused Input      : 0
+Floating Input    : 9
+Output            : 9
+Constant Output   : 9
+Unused Output     : 9
+Floating Output   : 9
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|addr_router
+Input             : 104
+Constant Input    : 0
+Unused Input      : 5
+Floating Input    : 0
+Output            : 108
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo
+Input             : 144
+Constant Input    : 39
+Unused Input      : 0
+Floating Input    : 39
+Output            : 103
+Constant Output   : 39
+Unused Output     : 39
+Floating Output   : 39
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent|uncompressor
+Input             : 41
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 39
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|jtag_uart_0_avalon_jtag_slave_translator_avalon_universal_slave_0_agent
+Input             : 286
+Constant Input    : 39
+Unused Input      : 43
+Floating Input    : 39
+Output            : 309
+Constant Output   : 39
+Unused Output     : 39
+Floating Output   : 39
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|esp8266_s1_translator_avalon_universal_slave_0_agent_rsp_fifo
+Input             : 144
+Constant Input    : 39
+Unused Input      : 0
+Floating Input    : 39
+Output            : 103
+Constant Output   : 39
+Unused Output     : 39
+Floating Output   : 39
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|esp8266_s1_translator_avalon_universal_slave_0_agent|uncompressor
+Input             : 41
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 39
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|esp8266_s1_translator_avalon_universal_slave_0_agent
+Input             : 286
+Constant Input    : 39
+Unused Input      : 43
+Floating Input    : 39
+Output            : 309
+Constant Output   : 39
+Unused Output     : 39
+Floating Output   : 39
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz_aslave_translator_avalon_universal_slave_0_agent_rsp_fifo
+Input             : 144
+Constant Input    : 39
+Unused Input      : 0
+Floating Input    : 39
+Output            : 103
+Constant Output   : 39
+Unused Output     : 39
+Floating Output   : 39
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz_aslave_translator_avalon_universal_slave_0_agent|uncompressor
+Input             : 41
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 39
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz_aslave_translator_avalon_universal_slave_0_agent
+Input             : 286
+Constant Input    : 39
+Unused Input      : 43
+Floating Input    : 39
+Output            : 309
+Constant Output   : 39
+Unused Output     : 39
+Floating Output   : 39
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|sdram_s1_translator_avalon_universal_slave_0_agent_rdata_fifo
+Input             : 63
+Constant Input    : 41
+Unused Input      : 0
+Floating Input    : 41
+Output            : 20
+Constant Output   : 41
+Unused Output     : 41
+Floating Output   : 41
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|sdram_s1_translator_avalon_universal_slave_0_agent_rsp_fifo
+Input             : 126
+Constant Input    : 39
+Unused Input      : 0
+Floating Input    : 39
+Output            : 85
+Constant Output   : 39
+Unused Output     : 39
+Floating Output   : 39
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|sdram_s1_translator_avalon_universal_slave_0_agent|uncompressor
+Input             : 41
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 39
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|sdram_s1_translator_avalon_universal_slave_0_agent
+Input             : 218
+Constant Input    : 22
+Unused Input      : 27
+Floating Input    : 22
+Output            : 238
+Constant Output   : 22
+Unused Output     : 22
+Floating Output   : 22
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|onchip_memory2_0_s1_translator_avalon_universal_slave_0_agent_rsp_fifo
+Input             : 144
+Constant Input    : 39
+Unused Input      : 0
+Floating Input    : 39
+Output            : 103
+Constant Output   : 39
+Unused Output     : 39
+Floating Output   : 39
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|onchip_memory2_0_s1_translator_avalon_universal_slave_0_agent|uncompressor
+Input             : 41
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 39
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|onchip_memory2_0_s1_translator_avalon_universal_slave_0_agent
+Input             : 286
+Constant Input    : 39
+Unused Input      : 43
+Floating Input    : 39
+Output            : 309
+Constant Output   : 39
+Unused Output     : 39
+Floating Output   : 39
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo
+Input             : 144
+Constant Input    : 39
+Unused Input      : 0
+Floating Input    : 39
+Output            : 103
+Constant Output   : 39
+Unused Output     : 39
+Floating Output   : 39
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2_jtag_debug_module_translator_avalon_universal_slave_0_agent|uncompressor
+Input             : 41
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 39
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2_jtag_debug_module_translator_avalon_universal_slave_0_agent
+Input             : 286
+Constant Input    : 39
+Unused Input      : 43
+Floating Input    : 39
+Output            : 309
+Constant Output   : 39
+Unused Output     : 39
+Floating Output   : 39
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2_data_master_translator_avalon_universal_master_0_agent
+Input             : 179
+Constant Input    : 35
+Unused Input      : 75
+Floating Input    : 35
+Output            : 136
+Constant Output   : 35
+Unused Output     : 35
+Floating Output   : 35
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2_instruction_master_translator_avalon_universal_master_0_agent
+Input             : 179
+Constant Input    : 35
+Unused Input      : 75
+Floating Input    : 35
+Output            : 136
+Constant Output   : 35
+Unused Output     : 35
+Floating Output   : 35
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|jtag_uart_0_avalon_jtag_slave_translator
+Input             : 109
+Constant Input    : 6
+Unused Input      : 27
+Floating Input    : 6
+Output            : 70
+Constant Output   : 6
+Unused Output     : 6
+Floating Output   : 6
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|esp8266_s1_translator
+Input             : 109
+Constant Input    : 7
+Unused Input      : 24
+Floating Input    : 7
+Output            : 74
+Constant Output   : 7
+Unused Output     : 7
+Floating Output   : 7
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz_aslave_translator
+Input             : 109
+Constant Input    : 7
+Unused Input      : 24
+Floating Input    : 7
+Output            : 69
+Constant Output   : 7
+Unused Output     : 7
+Floating Output   : 7
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|sdram_s1_translator
+Input             : 74
+Constant Input    : 5
+Unused Input      : 3
+Floating Input    : 5
+Output            : 61
+Constant Output   : 5
+Unused Output     : 5
+Floating Output   : 5
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|onchip_memory2_0_s1_translator
+Input             : 109
+Constant Input    : 8
+Unused Input      : 15
+Floating Input    : 8
+Output            : 83
+Constant Output   : 8
+Unused Output     : 8
+Floating Output   : 8
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2_jtag_debug_module_translator
+Input             : 109
+Constant Input    : 6
+Unused Input      : 16
+Floating Input    : 6
+Output            : 82
+Constant Output   : 6
+Unused Output     : 6
+Floating Output   : 6
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2_data_master_translator
+Input             : 110
+Constant Input    : 13
+Unused Input      : 0
+Floating Input    : 13
+Output            : 101
+Constant Output   : 13
+Unused Output     : 13
+Floating Output   : 13
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2_instruction_master_translator
+Input             : 110
+Constant Input    : 52
+Unused Input      : 0
+Floating Input    : 52
+Output            : 101
+Constant Output   : 52
+Unused Output     : 52
+Floating Output   : 52
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|esp8266|the_qsys_system_esp8266_regs|the_qsys_system_esp8266_rxfifo|rxfifo|auto_generated|dpfifo|wr_ptr
+Input             : 3
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 10
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|esp8266|the_qsys_system_esp8266_regs|the_qsys_system_esp8266_rxfifo|rxfifo|auto_generated|dpfifo|usedw_counter
+Input             : 4
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 10
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|esp8266|the_qsys_system_esp8266_regs|the_qsys_system_esp8266_rxfifo|rxfifo|auto_generated|dpfifo|rd_ptr_msb
+Input             : 3
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|esp8266|the_qsys_system_esp8266_regs|the_qsys_system_esp8266_rxfifo|rxfifo|auto_generated|dpfifo|three_comparison
+Input             : 20
+Constant Input    : 10
+Unused Input      : 0
+Floating Input    : 10
+Output            : 1
+Constant Output   : 10
+Unused Output     : 10
+Floating Output   : 10
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|esp8266|the_qsys_system_esp8266_regs|the_qsys_system_esp8266_rxfifo|rxfifo|auto_generated|dpfifo|almost_full_comparer
+Input             : 20
+Constant Input    : 10
+Unused Input      : 0
+Floating Input    : 10
+Output            : 1
+Constant Output   : 10
+Unused Output     : 10
+Floating Output   : 10
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|esp8266|the_qsys_system_esp8266_regs|the_qsys_system_esp8266_rxfifo|rxfifo|auto_generated|dpfifo|FIFOram
+Input             : 30
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|esp8266|the_qsys_system_esp8266_regs|the_qsys_system_esp8266_rxfifo|rxfifo|auto_generated|dpfifo
+Input             : 12
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 20
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|esp8266|the_qsys_system_esp8266_regs|the_qsys_system_esp8266_rxfifo|rxfifo|auto_generated
+Input             : 12
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 20
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|esp8266|the_qsys_system_esp8266_regs|the_qsys_system_esp8266_rxfifo
+Input             : 12
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 20
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|esp8266|the_qsys_system_esp8266_regs|the_qsys_system_esp8266_txfifo|txfifo|auto_generated|dpfifo|wr_ptr
+Input             : 3
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 10
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|esp8266|the_qsys_system_esp8266_regs|the_qsys_system_esp8266_txfifo|txfifo|auto_generated|dpfifo|usedw_counter
+Input             : 4
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 10
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|esp8266|the_qsys_system_esp8266_regs|the_qsys_system_esp8266_txfifo|txfifo|auto_generated|dpfifo|rd_ptr_msb
+Input             : 3
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|esp8266|the_qsys_system_esp8266_regs|the_qsys_system_esp8266_txfifo|txfifo|auto_generated|dpfifo|three_comparison
+Input             : 20
+Constant Input    : 10
+Unused Input      : 0
+Floating Input    : 10
+Output            : 1
+Constant Output   : 10
+Unused Output     : 10
+Floating Output   : 10
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|esp8266|the_qsys_system_esp8266_regs|the_qsys_system_esp8266_txfifo|txfifo|auto_generated|dpfifo|almost_full_comparer
+Input             : 20
+Constant Input    : 10
+Unused Input      : 0
+Floating Input    : 10
+Output            : 1
+Constant Output   : 10
+Unused Output     : 10
+Floating Output   : 10
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|esp8266|the_qsys_system_esp8266_regs|the_qsys_system_esp8266_txfifo|txfifo|auto_generated|dpfifo|FIFOram
+Input             : 30
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|esp8266|the_qsys_system_esp8266_regs|the_qsys_system_esp8266_txfifo|txfifo|auto_generated|dpfifo
+Input             : 12
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 20
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|esp8266|the_qsys_system_esp8266_regs|the_qsys_system_esp8266_txfifo|txfifo|auto_generated
+Input             : 12
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 20
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|esp8266|the_qsys_system_esp8266_regs|the_qsys_system_esp8266_txfifo
+Input             : 36
+Constant Input    : 0
+Unused Input      : 24
+Floating Input    : 0
+Output            : 20
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|esp8266|the_qsys_system_esp8266_regs
+Input             : 60
+Constant Input    : 11
+Unused Input      : 2
+Floating Input    : 11
+Output            : 58
+Constant Output   : 11
+Unused Output     : 11
+Floating Output   : 11
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|esp8266|the_qsys_system_esp8266_rx|the_qsys_system_esp8266_rx_stimulus_source
+Input             : 14
+Constant Input    : 0
+Unused Input      : 13
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|esp8266|the_qsys_system_esp8266_rx
+Input             : 15
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 13
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|esp8266|the_qsys_system_esp8266_tx
+Input             : 22
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 3
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|esp8266
+Input             : 43
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 34
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:3:i_motors_ixj:3:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:3:i_motors_ixj:3:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:3:i_motors_ixj:3:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:3:i_motors_ixj:3:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:3:i_motors_ixj:3:j_motors_ixj
+Input             : 56
+Constant Input    : 8
+Unused Input      : 0
+Floating Input    : 8
+Output            : 9
+Constant Output   : 8
+Unused Output     : 8
+Floating Output   : 8
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:3:i_motors_ixj:2:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:3:i_motors_ixj:2:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:3:i_motors_ixj:2:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:3:i_motors_ixj:2:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:3:i_motors_ixj:2:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:3:i_motors_ixj:1:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:3:i_motors_ixj:1:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:3:i_motors_ixj:1:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:3:i_motors_ixj:1:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:3:i_motors_ixj:1:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:2:i_motors_ixj:3:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:2:i_motors_ixj:3:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:2:i_motors_ixj:3:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:2:i_motors_ixj:3:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:2:i_motors_ixj:3:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:2:i_motors_ixj:2:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:2:i_motors_ixj:2:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:2:i_motors_ixj:2:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:2:i_motors_ixj:2:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:2:i_motors_ixj:2:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:2:i_motors_ixj:1:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:2:i_motors_ixj:1:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:2:i_motors_ixj:1:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:2:i_motors_ixj:1:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:2:i_motors_ixj:1:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:1:i_motors_ixj:3:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:1:i_motors_ixj:3:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:1:i_motors_ixj:3:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:1:i_motors_ixj:3:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:1:i_motors_ixj:3:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:1:i_motors_ixj:2:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:1:i_motors_ixj:2:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:1:i_motors_ixj:2:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:1:i_motors_ixj:2:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:1:i_motors_ixj:2:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:1:i_motors_ixj:1:j_motors_ixj|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:1:i_motors_ixj:1:j_motors_ixj|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:1:i_motors_ixj:1:j_motors_ixj|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:1:i_motors_ixj:1:j_motors_ixj|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ixj:1:i_motors_ixj:1:j_motors_ixj
+Input             : 56
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ix0:3:n_motors_ix0|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ix0:3:n_motors_ix0|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ix0:3:n_motors_ix0|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ix0:3:n_motors_ix0|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ix0:3:n_motors_ix0
+Input             : 56
+Constant Input    : 8
+Unused Input      : 0
+Floating Input    : 8
+Output            : 9
+Constant Output   : 8
+Unused Output     : 8
+Floating Output   : 8
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ix0:2:n_motors_ix0|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ix0:2:n_motors_ix0|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ix0:2:n_motors_ix0|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ix0:2:n_motors_ix0|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ix0:2:n_motors_ix0
+Input             : 56
+Constant Input    : 8
+Unused Input      : 0
+Floating Input    : 8
+Output            : 9
+Constant Output   : 8
+Unused Output     : 8
+Floating Output   : 8
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ix0:1:n_motors_ix0|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ix0:1:n_motors_ix0|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ix0:1:n_motors_ix0|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ix0:1:n_motors_ix0|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_ix0:1:n_motors_ix0
+Input             : 56
+Constant Input    : 8
+Unused Input      : 0
+Floating Input    : 8
+Output            : 9
+Constant Output   : 8
+Unused Output     : 8
+Floating Output   : 8
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_0xi:3:n_motors_0xi|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_0xi:3:n_motors_0xi|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_0xi:3:n_motors_0xi|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_0xi:3:n_motors_0xi|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_0xi:3:n_motors_0xi
+Input             : 56
+Constant Input    : 8
+Unused Input      : 0
+Floating Input    : 8
+Output            : 9
+Constant Output   : 8
+Unused Output     : 8
+Floating Output   : 8
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_0xi:2:n_motors_0xi|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_0xi:2:n_motors_0xi|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_0xi:2:n_motors_0xi|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_0xi:2:n_motors_0xi|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_0xi:2:n_motors_0xi
+Input             : 56
+Constant Input    : 8
+Unused Input      : 0
+Floating Input    : 8
+Output            : 9
+Constant Output   : 8
+Unused Output     : 8
+Floating Output   : 8
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_0xi:1:n_motors_0xi|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_0xi:1:n_motors_0xi|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_0xi:1:n_motors_0xi|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_0xi:1:n_motors_0xi|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|\motors_0xi:1:n_motors_0xi
+Input             : 56
+Constant Input    : 8
+Unused Input      : 0
+Floating Input    : 8
+Output            : 9
+Constant Output   : 8
+Unused Output     : 8
+Floating Output   : 8
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|motor_0x0|fsm_motor
+Input             : 36
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|motor_0x0|reg_power_decay
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|motor_0x0|reg_power_shift_amount
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|motor_0x0|reg_power
+Input             : 11
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|motor_0x0
+Input             : 56
+Constant Input    : 16
+Unused Input      : 0
+Floating Input    : 16
+Output            : 9
+Constant Output   : 16
+Unused Output     : 16
+Floating Output   : 16
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|commands_control
+Input             : 28
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 54
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|reg_status
+Input             : 35
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 32
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|reg_command_data
+Input             : 35
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 32
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|gerador_delay
+Input             : 2
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst|timer_8_bits
+Input             : 1
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz|matriz_inst
+Input             : 40
+Constant Input    : 5
+Unused Input      : 0
+Floating Input    : 5
+Output            : 50
+Constant Output   : 5
+Unused Output     : 5
+Floating Output   : 5
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|matriz
+Input             : 37
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 48
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|pll
+Input             : 2
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|sdram|the_qsys_system_sdram_input_efifo_module
+Input             : 45
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 45
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|sdram
+Input             : 45
+Constant Input    : 1
+Unused Input      : 1
+Floating Input    : 1
+Output            : 39
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 16
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|onchip_memory2_0|the_altsyncram|auto_generated
+Input             : 49
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 32
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|onchip_memory2_0
+Input             : 52
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 32
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|jtag_uart_0|the_qsys_system_jtag_uart_0_scfifo_r|rfifo|auto_generated|dpfifo|wr_ptr
+Input             : 4
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 6
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|jtag_uart_0|the_qsys_system_jtag_uart_0_scfifo_r|rfifo|auto_generated|dpfifo|rd_ptr_count
+Input             : 4
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 6
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|jtag_uart_0|the_qsys_system_jtag_uart_0_scfifo_r|rfifo|auto_generated|dpfifo|FIFOram|altsyncram2
+Input             : 24
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|jtag_uart_0|the_qsys_system_jtag_uart_0_scfifo_r|rfifo|auto_generated|dpfifo|FIFOram
+Input             : 24
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|jtag_uart_0|the_qsys_system_jtag_uart_0_scfifo_r|rfifo|auto_generated|dpfifo|fifo_state|count_usedw
+Input             : 5
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 6
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|jtag_uart_0|the_qsys_system_jtag_uart_0_scfifo_r|rfifo|auto_generated|dpfifo|fifo_state
+Input             : 5
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|jtag_uart_0|the_qsys_system_jtag_uart_0_scfifo_r|rfifo|auto_generated|dpfifo
+Input             : 13
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 16
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|jtag_uart_0|the_qsys_system_jtag_uart_0_scfifo_r|rfifo|auto_generated
+Input             : 12
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 16
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|jtag_uart_0|the_qsys_system_jtag_uart_0_scfifo_r
+Input             : 13
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 16
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|jtag_uart_0|the_qsys_system_jtag_uart_0_scfifo_w|wfifo|auto_generated|dpfifo|wr_ptr
+Input             : 4
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 6
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|jtag_uart_0|the_qsys_system_jtag_uart_0_scfifo_w|wfifo|auto_generated|dpfifo|rd_ptr_count
+Input             : 4
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 6
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|jtag_uart_0|the_qsys_system_jtag_uart_0_scfifo_w|wfifo|auto_generated|dpfifo|FIFOram|altsyncram2
+Input             : 24
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|jtag_uart_0|the_qsys_system_jtag_uart_0_scfifo_w|wfifo|auto_generated|dpfifo|FIFOram
+Input             : 24
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|jtag_uart_0|the_qsys_system_jtag_uart_0_scfifo_w|wfifo|auto_generated|dpfifo|fifo_state|count_usedw
+Input             : 5
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 6
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|jtag_uart_0|the_qsys_system_jtag_uart_0_scfifo_w|wfifo|auto_generated|dpfifo|fifo_state
+Input             : 5
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|jtag_uart_0|the_qsys_system_jtag_uart_0_scfifo_w|wfifo|auto_generated|dpfifo
+Input             : 13
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 16
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|jtag_uart_0|the_qsys_system_jtag_uart_0_scfifo_w|wfifo|auto_generated
+Input             : 12
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 16
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|jtag_uart_0|the_qsys_system_jtag_uart_0_scfifo_w
+Input             : 12
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 16
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|jtag_uart_0
+Input             : 38
+Constant Input    : 10
+Unused Input      : 23
+Floating Input    : 10
+Output            : 34
+Constant Output   : 10
+Unused Output     : 10
+Floating Output   : 10
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2|the_qsys_system_nios2_nios2_oci|the_qsys_system_nios2_jtag_debug_module_wrapper|the_qsys_system_nios2_jtag_debug_module_sysclk
+Input             : 43
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 51
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2|the_qsys_system_nios2_nios2_oci|the_qsys_system_nios2_jtag_debug_module_wrapper|the_qsys_system_nios2_jtag_debug_module_tck
+Input             : 130
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 43
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2|the_qsys_system_nios2_nios2_oci|the_qsys_system_nios2_jtag_debug_module_wrapper
+Input             : 123
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 53
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2|the_qsys_system_nios2_nios2_oci|the_qsys_system_nios2_nios2_oci_im
+Input             : 97
+Constant Input    : 36
+Unused Input      : 93
+Floating Input    : 36
+Output            : 48
+Constant Output   : 36
+Unused Output     : 36
+Floating Output   : 36
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2|the_qsys_system_nios2_nios2_oci|the_qsys_system_nios2_nios2_oci_pib
+Input             : 39
+Constant Input    : 20
+Unused Input      : 38
+Floating Input    : 20
+Output            : 19
+Constant Output   : 20
+Unused Output     : 20
+Floating Output   : 20
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2|the_qsys_system_nios2_nios2_oci|the_qsys_system_nios2_nios2_oci_fifo|the_qsys_system_nios2_oci_test_bench
+Input             : 36
+Constant Input    : 0
+Unused Input      : 36
+Floating Input    : 0
+Output            : 0
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2|the_qsys_system_nios2_nios2_oci|the_qsys_system_nios2_nios2_oci_fifo|qsys_system_nios2_nios2_oci_fifocount_inc_fifocount
+Input             : 5
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 5
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2|the_qsys_system_nios2_nios2_oci|the_qsys_system_nios2_nios2_oci_fifo|qsys_system_nios2_nios2_oci_fifowp_inc_fifowp
+Input             : 4
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 4
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2|the_qsys_system_nios2_nios2_oci|the_qsys_system_nios2_nios2_oci_fifo|qsys_system_nios2_nios2_oci_compute_tm_count_tm_count
+Input             : 3
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 2
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2|the_qsys_system_nios2_nios2_oci|the_qsys_system_nios2_nios2_oci_fifo
+Input             : 151
+Constant Input    : 0
+Unused Input      : 65
+Floating Input    : 0
+Output            : 36
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2|the_qsys_system_nios2_nios2_oci|the_qsys_system_nios2_nios2_oci_dtrace|qsys_system_nios2_nios2_oci_trc_ctrl_td_mode
+Input             : 9
+Constant Input    : 0
+Unused Input      : 6
+Floating Input    : 0
+Output            : 4
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2|the_qsys_system_nios2_nios2_oci|the_qsys_system_nios2_nios2_oci_dtrace
+Input             : 110
+Constant Input    : 0
+Unused Input      : 99
+Floating Input    : 0
+Output            : 72
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2|the_qsys_system_nios2_nios2_oci|the_qsys_system_nios2_nios2_oci_itrace
+Input             : 25
+Constant Input    : 17
+Unused Input      : 23
+Floating Input    : 17
+Output            : 87
+Constant Output   : 17
+Unused Output     : 17
+Floating Output   : 17
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2|the_qsys_system_nios2_nios2_oci|the_qsys_system_nios2_nios2_oci_dbrk
+Input             : 95
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 99
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2|the_qsys_system_nios2_nios2_oci|the_qsys_system_nios2_nios2_oci_xbrk
+Input             : 61
+Constant Input    : 5
+Unused Input      : 58
+Floating Input    : 5
+Output            : 6
+Constant Output   : 5
+Unused Output     : 5
+Floating Output   : 5
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2|the_qsys_system_nios2_nios2_oci|the_qsys_system_nios2_nios2_oci_break
+Input             : 52
+Constant Input    : 36
+Unused Input      : 6
+Floating Input    : 36
+Output            : 71
+Constant Output   : 36
+Unused Output     : 36
+Floating Output   : 36
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2|the_qsys_system_nios2_nios2_oci|the_qsys_system_nios2_nios2_avalon_reg
+Input             : 48
+Constant Input    : 0
+Unused Input      : 28
+Floating Input    : 0
+Output            : 68
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2|the_qsys_system_nios2_nios2_oci|the_qsys_system_nios2_nios2_ocimem|qsys_system_nios2_ociram_sp_ram|the_altsyncram|auto_generated
+Input             : 46
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 32
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2|the_qsys_system_nios2_nios2_oci|the_qsys_system_nios2_nios2_ocimem|qsys_system_nios2_ociram_sp_ram
+Input             : 46
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 32
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2|the_qsys_system_nios2_nios2_oci|the_qsys_system_nios2_nios2_ocimem
+Input             : 91
+Constant Input    : 0
+Unused Input      : 6
+Floating Input    : 0
+Output            : 65
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2|the_qsys_system_nios2_nios2_oci|the_qsys_system_nios2_nios2_oci_debug
+Input             : 50
+Constant Input    : 1
+Unused Input      : 30
+Floating Input    : 1
+Output            : 7
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2|the_qsys_system_nios2_nios2_oci
+Input             : 171
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 69
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2|qsys_system_nios2_register_bank_b|the_altsyncram|auto_generated
+Input             : 44
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 32
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2|qsys_system_nios2_register_bank_b
+Input             : 44
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 32
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2|qsys_system_nios2_register_bank_a|the_altsyncram|auto_generated
+Input             : 44
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 32
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2|qsys_system_nios2_register_bank_a
+Input             : 44
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 32
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2|the_qsys_system_nios2_test_bench
+Input             : 293
+Constant Input    : 3
+Unused Input      : 256
+Floating Input    : 3
+Output            : 34
+Constant Output   : 3
+Unused Output     : 3
+Floating Output   : 3
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system|nios2
+Input             : 148
+Constant Input    : 0
+Unused Input      : 30
+Floating Input    : 0
+Output            : 124
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : system
+Input             : 2
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 39
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 16
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
++--------------------------------------------------------------------------------+
+

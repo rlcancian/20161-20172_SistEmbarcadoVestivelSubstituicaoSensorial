@@ -1,0 +1,61 @@
+Altera(R) University Program Design Suite 13.0
+Quick USB-Blaster(TM) Installation Guide for Linux
+Copyright (c) Altera Corporation 2013
+==================================================================
+
+In order for the Altera Monitor Program to properly access the
+development board via the JTAG interface, the USB-Blaster cable
+needs to be properly configured on the system.
+
+1. Give non-root users access to the USB-Blaster device. The
+   following is given for Red Hat Enterprise Linux (RHEL), but it
+   should work on other Linux systems as well.
+
+   * RHEL 4 and below:
+
+     a. Add these lines to /etc/hotplug/usb.usermap:
+
+        #
+        # Altera USB-Blaster
+        #
+        usbblaster 0x03 0x09fb 0x6001 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+        usbblaster 0x03 0x09fb 0x6002 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+        usbblaster 0x03 0x09fb 0x6003 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+
+     b. Create a file named /etc/hotplug/usb/usbblaster with the following contents:
+
+        #!/bin/sh
+        # USB-Blaster hotplug script
+        # Allow any user to access the cable
+        chmod 666 $DEVICE
+
+     c. Make the file executable:
+        chmod +x /etc/hotplug/usb/usbblaster
+
+   * RHEL 5 and above (has been tested to work with Ubuntu 12.04 as well):
+
+     Add the following lines to the /etc/udev/rules.d/51-usbblaster.rules file:
+
+     # USB-Blaster
+     BUS=="usb", SYSFS{idVendor}=="09fb", SYSFS{idProduct}=="6001", MODE="0666", PROGRAM="/bin/sh -c 'K=%k; K=$${K#usbdev}; printf /proc/bus/usb/%%03i/%%03i$${K%%%%.*} $${K#*.}'", RUN+="/bin/chmod 0666 %c"
+
+2. Configure jtagd (the JTAG Daemon):
+
+   a. Create the directory /etc/jtagd if it does not already exist
+
+   b. Copy and rename the file $QUARTUS_ROOTDIR/linux/pgm_parts.txt to /etc/jtagd/jtagd.pgm_parts
+      (Where $QUARTUS_ROOTDIR is the Quartus II installation directory)
+      NOTE: In this step, the file is renamed from "pgm_parts.txt" to "jtagd.pgm_parts".
+
+   c. Create a blank file named ~/.jtag.conf (in your home directory)
+
+3. Make sure jtagd is run with admin privileges:
+
+   Add the following line to /etc/rc.local:
+
+   $QUARTUS_ROOTDIR/bin/jtagd
+
+   (Where $QUARTUS_ROOTDIR is the Quartus II installation directory)
+   The line must be added before the 'exit 0' line.
+
+4. Restart your machine

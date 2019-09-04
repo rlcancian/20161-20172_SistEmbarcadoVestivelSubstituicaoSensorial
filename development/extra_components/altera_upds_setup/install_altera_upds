@@ -1,0 +1,190 @@
+#!/bin/bash
+
+# Altera University Program Design Suite Install Script
+# Copyright (c) 2013 Altera Corporation. All rights reserved.
+
+set +u
+
+# define useful constants
+
+UPDS_VERSION="13.0"
+NIOS_VER_MAJOR="13"
+NIOS_VER_MINOR="0"
+
+# display copyright and introductory messages
+
+echo ""
+echo "Altera University Program Design Suite $UPDS_VERSION"
+echo "Installation Script for Linux Workstations"
+echo "Copyright (c) Altera Corporation 2013"
+echo ""
+echo "Type Ctrl+C <Return> to quit this installation script at any time."
+echo ""
+echo "Use this installation script to install the Altera University"
+echo "Program Design Suite, including the Altera Monitor Program,"
+echo "Altera University Program IP Cores, and example systems"
+echo "and software."
+echo ""
+echo "Please read the end-user license agreement located in the"
+echo "installer directory entitled 'license.txt'."
+echo ""
+echo "Press <Return> to continue installation: "
+read
+
+# change to the installer's directory
+
+cd `dirname $0`
+
+# check for the existence of required environment variables;
+# If found give the user the option to install to this location, 
+# or to specify another location to install to.
+# if not found (this can happen if Quartus II and Nios II were
+# installed without root access), provide the user with the
+# option to specify them.
+
+if [ -f "$QUARTUS_ROOTDIR/bin/quartus" ] ; then
+  echo "Found a Quartus II installation at '$QUARTUS_ROOTDIR'."
+  echo "To install the Altera University Program Design Suite in this location, press <Return>."
+  echo "To install the Altera University Program Design Suite in a a different location, "
+  echo "enter the path to a different Quartus II installation."
+  echo ""
+  read USER_ROOTDIR
+fi
+
+if [ "$USER_ROOTDIR" =  "" ] ; then
+  echo "Using the automatic destination"
+else
+  QUARTUS_ROOTDIR=$USER_ROOTDIR
+  echo "Using the user-defined destination '$QUARTUS_ROOTDIR'"
+  if [ ! -f "$QUARTUS_ROOTDIR/bin/quartus" ] ; then
+    QUARTUS_ROOTDIR=""
+    echo "The provided directory '$USER_ROOTDIR' does not contain a valid Quartus II installation."
+    while [ ! "$QUARTUS_ROOTDIR" ] ; do
+      echo "Type the full name of the Quartus II installation directory: "
+      read USER_ROOTDIR
+      if [ -d "$USER_ROOTDIR" ] && [ -f "$USER_ROOTDIR/bin/quartus" ] ; then
+        QUARTUS_ROOTDIR=$USER_ROOTDIR
+      else
+        echo "The provided directory '$USER_ROOTDIR' does not contain a valid Quartus II installation."
+        echo ""
+      fi
+    done
+  fi
+fi
+
+if [ ! -f "$QUARTUS_ROOTDIR/bin/quartus" ] ; then
+  echo ""
+  QUARTUS=`which quartus`
+  echo ""
+  if [ -f "$QUARTUS" ] ; then
+    QUARTUS_ROOTDIR=${QUARTUS%/*/*}
+  else
+    QUARTUS_ROOTDIR=""
+    echo "The Altera University Program Design Suite requires Quartus II to be installed."
+    echo "Unable to locate the Quartus II installation."
+    echo "Please provide the path to the Quartus II installation directory manually."
+    echo ""
+    while [ ! "$QUARTUS_ROOTDIR" ] ; do
+      echo "Type the full name of the Quartus II installation directory: "
+      read qdir
+      if [ -d "$qdir" ] && [ -f "$qdir/bin/quartus" ] ; then
+        QUARTUS_ROOTDIR=$qdir
+      else
+        echo "The provided directory '$qdir' does not contain a valid Quartus II installation."
+        echo ""
+      fi
+    done
+  fi
+fi
+
+if [ ! -w "$QUARTUS_ROOTDIR/.." ] ; then
+  echo "The provided directory '$QUARTUS_ROOTDIR/..' is read-only."
+  echo "Please retry the installer, and select a writable directory containing a Quartus II installation."
+  echo ""
+  exit
+fi
+
+export QUARTUS_ROOTDIR
+echo ""
+
+if [ ! -f "$SOPC_KIT_NIOS2/version.ptf" ] ; then
+  SOPC_KIT_NIOS2=""
+  echo "The Altera University Program Design Suite requires Nios II to be installed."
+  echo "Unable to locate the Nios II EDS installation."
+  echo "Please provide the path to the Nios II EDS installation directory manually."
+  echo ""
+  while [ ! "$SOPC_KIT_NIOS2" ] ; do
+    echo "Type the full name of the Nios II EDS installation directory: "
+    read ndir
+    if [ -d "$ndir" ] && [ -f "$ndir/version.ptf" ] ; then
+      SOPC_KIT_NIOS2=$ndir
+    else
+      echo "The provided directory '$ndir' does not contain a valid Nios II EDS installation."
+      echo
+    fi
+  done
+fi
+
+export SOPC_KIT_NIOS2
+echo ""
+
+# extract the major part of the Nios II EDS version
+
+nmajor=`cat $SOPC_KIT_NIOS2/version.ptf | grep major`
+nmajor=`expr "$nmajor" : '[^0-9]\+\([0-9]\+\)'`
+
+# extract the minor part of the Nios II EDS version
+
+nminor=`cat $SOPC_KIT_NIOS2/version.ptf | grep minor`
+nminor=`expr "$nminor" : '[^0-9]\+\([0-9]\+\)'`
+
+# make sure that the version of the installed Nios II EDS is recent enough
+
+if [ "$nmajor" -lt $NIOS_VER_MAJOR ] || ([ "$nmajor" -eq $NIOS_VER_MAJOR ] && [ "$nminor" -lt $NIOS_VER_MINOR ]) ; then
+  echo "The Altera University Program Design Suite $UPDS_VERSION requires Nios II version $NIOS_VER_MAJOR.$NIOS_VER_MINOR or later (currrently installed version is $nmajor.$nminor)."
+  exit 1
+fi
+
+# untar the archive containing the files of the Altera UPDS to
+# the Altera root directory (the directory one level above the
+# Quartus II installation directory)
+
+tar -xvzf upds_installer_data.tgz -C "$QUARTUS_ROOTDIR/.."
+	
+# exit if an error occured (e.g., if the archive could not be found)
+
+if [ ! $? -eq 0 ] ; then
+  exit 1
+fi
+
+# generate the launcher script to start the Altera Monitor Program
+
+launcher_script="#!/bin/bash\n\n"
+launcher_script="${launcher_script}export PATH=\$PATH:$SOPC_KIT_NIOS2/bin/gnu/H-i686-pc-linux-gnu/bin:$SOPC_KIT_NIOS2/bin:$QUARTUS_ROOTDIR/bin:$QUARTUS_ROOTDIR/sopcbuilder/bin\n"
+launcher_script="${launcher_script}QUARTUS_ROOTDIR=\"$QUARTUS_ROOTDIR\"\n"
+launcher_script="${launcher_script}SOPC_KIT_NIOS2=\"$SOPC_KIT_NIOS2\"\n"
+launcher_script="${launcher_script}export QUARTUS_ROOTDIR\n"
+launcher_script="${launcher_script}export SOPC_KIT_NIOS2\n"
+launcher_script="${launcher_script}cd $QUARTUS_ROOTDIR/../University_Program/Monitor_Program/bin\n"
+launcher_script="${launcher_script}source $QUARTUS_ROOTDIR/../University_Program/Monitor_Program/bin/up_nios2_command_shell.sh > /dev/null\n"
+launcher_script="${launcher_script}$QUARTUS_ROOTDIR/linux/jre/bin/java -jar $QUARTUS_ROOTDIR/../University_Program/Monitor_Program/bin/Altera_Monitor_Program.jar\n"
+echo -e "$launcher_script" > $QUARTUS_ROOTDIR/../University_Program/Monitor_Program/bin/altera-monitor-program
+
+# make the launcher script executable
+
+chmod 755 $QUARTUS_ROOTDIR/../University_Program/Monitor_Program/bin/altera-monitor-program
+chmod 755 $QUARTUS_ROOTDIR/../University_Program/Monitor_Program/bin/bin/nios-monitor-terminal
+chmod 755 $QUARTUS_ROOTDIR/../University_Program/Monitor_Program/bin/bin/nios-monitor-terminal-wrapped
+
+# create the Altera Monitor Program settings directory in the
+# user's home directory
+
+mkdir -p ~/.altera.monitor_program
+
+# completion message
+
+echo ""
+echo "Altera University Program Design Suite $UPDS_VERSION installation complete."
+echo ""
+
+exit 0

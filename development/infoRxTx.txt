@@ -1,0 +1,2 @@
+esp8266_rxd => gpio_1(0),
+esp8266_txd => gpio_1(1)
