@@ -1,0 +1,17 @@
+	component QSysSubstituicaoSentidosSoC is
+		port (
+			clk_clk                                      : in    std_logic                     := 'X';             -- clk
+			reset_reset_n                                : in    std_logic                     := 'X';             -- reset_n
+			pio_output16_external_connection_export      : out   std_logic_vector(15 downto 0);                    -- export
+			fifoed_avalon_uart_0_external_connection_rxd : in    std_logic                     := 'X';             -- rxd
+			fifoed_avalon_uart_0_external_connection_txd : out   std_logic;                                        -- txd
+			sram_external_interface_DQ                   : inout std_logic_vector(15 downto 0) := (others => 'X'); -- DQ
+			sram_external_interface_ADDR                 : out   std_logic_vector(17 downto 0);                    -- ADDR
+			sram_external_interface_LB_N                 : out   std_logic;                                        -- LB_N
+			sram_external_interface_UB_N                 : out   std_logic;                                        -- UB_N
+			sram_external_interface_CE_N                 : out   std_logic;                                        -- CE_N
+			sram_external_interface_OE_N                 : out   std_logic;                                        -- OE_N
+			sram_external_interface_WE_N                 : out   std_logic                                         -- WE_N
+		);
+	end component QSysSubstituicaoSentidosSoC;
+

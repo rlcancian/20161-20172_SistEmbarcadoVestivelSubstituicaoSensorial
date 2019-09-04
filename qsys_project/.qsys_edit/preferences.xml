@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable>
+  <columns>
+   <connections preferredWidth="127" />
+   <irq preferredWidth="34" />
+  </columns>
+ </systemtable>
+ <clocktable>
+  <columns>
+   <clockname preferredWidth="238" />
+   <clocksource preferredWidth="238" />
+   <frequency preferredWidth="219" />
+  </columns>
+ </clocktable>
+ <library
+   expandedCategories="Library/University Program/Communications,Library/University Program,Library/Interface Protocols/DisplayPort,Library/PLL,Library/Interface Protocols/Ethernet,Library/Memories and Memory Controllers/External Memory Interfaces,Library/Interface Protocols/Interlaken,Library/University Program/Memory,Library/DSP,Library/University Program/Generic IO,Library/Qsys Interconnect/Tri-State Components,Library/Qsys Interconnect/Interrupt,Library/Peripherals/Display,Library/Qsys Interconnect,Library/Peripherals/Debug and Performance,Library/Interface Protocols/SDI,Library/Interface Protocols/Serial,Library/Peripherals,Library/University Program/Audio &amp; Video/Video,Library/Interface Protocols/RapidIO,Library/Qsys Interconnect/AXI Interface,Library/DSP/Video and Image Processing,Library/University Program/Bridges,Library/Qsys Interconnect/Memory-Mapped,Library/Microcontroller Peripherals,Library,Library/Bridges,Library/Bridges and Adapters,Library/Embedded Processors,Library/Memories and Memory Controllers,Library/Window Bridge,Project,Library/Peripherals/Microcontroller Peripherals,Library/Interface Protocols/PCI,Library/Bridges/Streaming,Library/Qsys Interconnect/AHB,Library/University Program/Audio &amp; Video,Library/Interface Protocols/Transceiver PHY,Library/Memories and Memory Controllers/External Memory Interfaces/SDRAM Interfaces,Library/Memories and Memory Controllers/On-Chip,Library/Configuration &amp; Programming,Library/Verification,Library/Interface Protocols,Library/Memories and Memory Controllers/External Memory Interfaces/Memory Interfaces,Library/Merlin Components,Library/Bridges and Adapters/DMA" />
+ <window width="1100" height="733" x="0" y="0" />
+ <hdlexample language="VHDL" />
+ <generation synthesis="VHDL" />
+</preferences>
